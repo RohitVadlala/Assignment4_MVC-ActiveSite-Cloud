@@ -1,0 +1,676 @@
+@{
+    ViewData["Title"] = "About Us - Backpack to Europe";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.13.3/mermaid.min.js"></script>
+    <style>
+        /* Include your CSS here */
+        /* Body, About Section, and other custom styles from your HTML file */
+        body {
+            background-color: #e0e0e0;
+        }
+
+        .about-section {
+            padding: 8rem 7% 2rem;
+        }
+
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Mission Section */
+        .mission-section {
+            text-align: center;
+            margin-bottom: 4rem;
+            padding: 2rem;
+            background: #fff;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            border-radius: 8px;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+        }
+
+            .mission-section p {
+                max-width: 800px;
+                margin: 1rem auto;
+                color: #666;
+                line-height: 1.6;
+            }
+
+        /* Team Section */
+        .team-section {
+            margin-bottom: 4rem;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .team-member {
+            background: #fff;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+            .team-member:hover {
+                transform: translateY(-5px);
+            }
+
+        .member-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto 1rem;
+            overflow: hidden;
+        }
+
+            .member-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+        .member-info h3 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .member-info p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .member-social {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+            .member-social a {
+                color: #2196F3;
+                font-size: 1.2rem;
+                transition: color 0.3s ease;
+            }
+
+                .member-social a:hover {
+                    color: #1976D2;
+                }
+
+        .model-image svg {
+            max-width: 800px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        @@media (max-width: 768px) {
+            .model-image svg {
+                min-height: 400px;
+            }
+        }
+
+
+
+        /* Data Model Section */
+        .data-model-section {
+            background: #fff;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            margin: 2rem auto;
+            max-width: 1400px;
+        }
+
+            .data-model-section h3 {
+                color: #333;
+                margin-bottom: 2rem;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+
+        .model-image {
+            width: 100%;
+            padding: 1rem;
+            background-color: transparent;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .mermaid {
+            font-family: 'Arial', sans-serif;
+            min-width: 800px;
+        }
+        /* Model Description */
+        .model-description {
+            margin-top: 2rem;
+        }
+
+            .model-description h3 {
+                color: #333;
+                margin-bottom: 1rem;
+            }
+
+            .model-description p {
+                color: #666;
+                line-height: 1.6;
+                margin-bottom: 1rem;
+            }
+
+        .relationships {
+            margin-top: 2rem;
+        }
+
+        .relationship-item {
+            background: rgba(33, 150, 243, 0.05);
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 1rem;
+        }
+
+            .relationship-item h4 {
+                color: #2196F3;
+                margin-bottom: 0.5rem;
+            }
+
+
+        /* Tech Stack Section */
+        .tech-stack {
+            background: #fff;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+        }
+
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .tech-item {
+            text-align: center;
+            padding: 1rem;
+            background: rgba(33, 150, 243, 0.05);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+            .tech-item:hover {
+                transform: translateY(-5px);
+            }
+
+            .tech-item i {
+                font-size: 2rem;
+                color: #2196F3;
+                margin-bottom: 0.5rem;
+            }
+
+            .tech-item p {
+                color: #666;
+                font-size: 0.9rem;
+            }
+
+        /* Footer Styling */
+
+
+        .footer {
+            background: #fff;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 4rem;
+            width: 100%;
+            left: 0;
+            right: 0;
+        }
+
+        .footer-title {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+            .footer-title span {
+                color: #2196F3;
+            }
+
+        .footer p {
+            color: #666;
+            margin: 0.5rem 0;
+            font-size: 0.9rem;
+        }
+
+        body, html {
+            background-color: #e0e0e0;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .technical-features {
+            background: #fff;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 2rem auto;
+            max-width: 1400px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature-card {
+            background: rgba(33, 150, 243, 0.05);
+            padding: 1.5rem;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .feature-card h4 {
+            color: #2196F3;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .feature-card p {
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .feature-list {
+            margin-top: 1rem;
+            padding-left: 1.2rem;
+        }
+
+        .feature-list li {
+            margin-bottom: 0.5rem;
+            color: #666;
+        }
+
+        <style>
+    /* Update these footer styles in your existing CSS */
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        background-color: #e0e0e0;
+    }
+
+    .content-wrapper {
+        flex: 1;
+        background-color: #e0e0e0;
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding-bottom: 2rem; /* Add padding to prevent content from touching footer */
+    }
+
+    .about-section {
+        padding: 8rem 7% 2rem;
+    }
+
+        body, html {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        width: 100%;
+        background-color: #e0e0e0;
+        position: relative;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-wrapper {
+        flex: 1 0 auto;
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+        padding-bottom: 4rem; /* Increased padding to prevent overlap with footer */
+    }
+
+    /* Updated Footer Styles */
+    .footer {
+        background: #fff;
+        padding: 2rem 0;
+        text-align: center;
+        box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+        width: 100vw; /* Full viewport width */
+        margin: 0;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        flex-shrink: 0; /* Prevent footer from shrinking */
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .footer-title {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 1rem;
+    }
+
+    .footer-title span {
+        color: #2196F3;
+    }
+
+    .footer p {
+        color: #666;
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+    }
+
+    @@media (max-width: 768px) {
+        .content-wrapper {
+            padding-bottom: 2rem;
+        }
+    }        .about-section {
+            background-color: #e0e0e0;
+            min-height: calc(100vh - 80px);
+            width: 100%;
+            margin: 0;
+            padding: 8rem 7% 2rem;
+        }
+
+        .content-wrapper {
+            background-color: #e0e0e0;
+            width: 100%;
+            min-height: 100vh;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+
+
+
+<body>
+    <div class="content-wrapper">
+        <!-- Header Section -->
+        <header>
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fas fa-bars"> </label>
+
+            <a href="~/Home/Index" class="logo">
+                Fly<span> Europe</span>
+            </a>
+
+            <nav class="navbar">
+                <a href="~/Home/Index"> Home</a>
+                <a href="~/About/Index" class="active"> About</a>
+                <a href="~/Destinations/Index"> Destinations</a>
+                <a href="~/Bookings/Index"> Bookings</a>
+                <a href="~/Analytics/Index"> Analytics</a>
+                <a href="~/Contact/Index"> Contact</a>
+                <a href="~/Reviews/Index"> Reviews</a>
+            </nav>
+        </header>
+        
+        <!-- About Section -->
+        <section class="about-section">
+            <h2 class="heading" style="display: flex; justify-content: center; align-items: center; width: 100%;">About <span style="margin-left: 10px;">Us</span></h2>
+
+            <div class="about-container">
+                <!-- Mission Section -->
+                <div class="mission-section">
+                    <h3> Our Mission</h3>
+                    <p> At FlyEurope, we're dedicated to making European travel accessible, exciting, and memorable for everyone. Our platform combines cutting-edge technology with personalized service to create seamless travel experiences.</p>
+                </div>
+
+            <!-- Team Section -->
+                <div class="team-section">
+                    <h3> Our Team</h3>
+                    <div class="team-grid">
+                        <!-- Team Member 1 -->
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="~/images/jobin.jpg" alt="Team Member">
+                            </div>
+                            <div class="member-info">
+                                <h3> Jobin John</h3>
+                                <p> Deployment/ DevOps</p>
+                                <div style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);">
+                                    <p style="text-align: justify; line-height: 1.6; margin-bottom: 20px;">Seasoned Azure cloud engineer with over 2 years of experience in designing, deploying, and managing cloud-based solutions. Proven ability to lead teams and deliver results in fast-paced environments. Passionate about working with cutting-edge technical skills and up-to-date industry knowledge. Manage and deliver high quality customer experiences while providing excellent technical advice and troubleshooting to all client.</p>
+                                    <div style="display: flex; justify-content: center; gap: 10px;">
+                                        <a href="https://www.linkedin.com/in/jobinabrahamjohn/"><i class="fab fa-linkedin"></i></a>
+                                        <a href="https://github.com/jobinjohn4"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Team Member 2 -->
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="~/images/pavan.jpg" alt="Team Member">
+                            </div>
+                            <div class="member-info">
+                                <h3> Pavan Teja Allenki</h3>
+                                <p> Backend Developer</p>
+                                <div style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);">
+                                    <p style="text-align: justify; line-height: 1.6; margin-bottom: 20px;">ML Enthusiast with a demonstrated history of working in the information technology and services industry.I'm passionate about turning complex data into actionable insights through the power of machine learning. I would love to get my hands on any work related to manipulating, analyzing and forecasting data, and building machine learning models.At the core, I am a fast learner and a team player contributing and innovating the solutions to ensure that the best support is given in alignment with current objectives.</p>
+                                    <div style="display: flex; justify-content: center; gap: 10px;">
+                                        <a href="https://www.linkedin.com/in/pavan-allenki/"><i class="fab fa-linkedin"></i></a>
+                                        <a href="https://github.com/pallenki"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Team Member 3 -->
+                        <div class="team-member">
+                            <div class="member-img">
+                                <img src="~/images/rohit.jpg" alt="Team Member">
+                            </div>
+                            <div class="member-info">
+                                <h3> Rohit Vadlala</h3>
+                                <p> Frontend/UI/UX Designer</p>
+                                <div style="background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);">
+                                    <p style="text-align: justify; line-height: 1.6; margin-bottom: 20px;">I am an accomplished software engineer and data expert with rich experience across data analysis, software development, and project management. I excel in designing high-quality solutions, driving effective reporting processes, and uncovering insights using tools like Tableau and Power BI. With a knack for innovation, I bring a results-driven approach to forecasting, machine learning, and data-driven strategy.</p>
+                                    <div style="display: flex; justify-content: center; gap: 10px;">
+                                        <a href="https://www.linkedin.com/in/rohit-vadlala-91a3a9176/"><i class="fab fa-linkedin"></i></a>
+                                        <a href="https://github.com/RohitVadlala"><i class="fab fa-github"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <!-- Data Model Section -->
+                <!-- Data Model Section with Updated ERD -->
+<div class="data-model-section">
+    <h3>Data Model & API Integration</h3>
+    <div class="model-image">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+            <!-- Background -->
+            <rect width="800" height="600" fill="#fafafa" />
+
+            <!-- First Row: API and Users -->
+            <rect x="50" y="30" width="250" height="120" fill="#fff" stroke="#2196F3" stroke-width="2" rx="4" />
+            <text x="175" y="55" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="14">API DATA SOURCE</text>
+            <line x1="50" y1="65" x2="300" y2="65" stroke="#2196F3" stroke-width="1" />
+            <text x="60" y="85" font-family="Arial" font-size="12">+ chart_data: JSON</text>
+            <text x="60" y="105" font-family="Arial" font-size="12">+ analytics_data: JSON</text>
+            <text x="60" y="125" font-family="Arial" font-size="12">+ price_trends: JSON</text>
+            <text x="60" y="145" font-family="Arial" font-size="12">+ api_timestamp: datetime</text>
+
+            <rect x="500" y="30" width="250" height="120" fill="#fff" stroke="#2196F3" stroke-width="2" rx="4" />
+            <text x="625" y="55" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="14">USERS</text>
+            <line x1="500" y1="65" x2="750" y2="65" stroke="#2196F3" stroke-width="1" />
+            <text x="510" y="85" font-family="Arial" font-size="12">+ user_id: int (PK)</text>
+            <text x="510" y="105" font-family="Arial" font-size="12">+ name: string</text>
+            <text x="510" y="125" font-family="Arial" font-size="12">+ email: string</text>
+            <text x="510" y="145" font-family="Arial" font-size="12">+ created_at: timestamp</text>
+
+            <!-- Second Row: Destinations -->
+            <rect x="50" y="200" width="250" height="120" fill="#fff" stroke="#2196F3" stroke-width="2" rx="4" />
+            <text x="175" y="225" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="14">DESTINATIONS</text>
+            <line x1="50" y1="235" x2="300" y2="235" stroke="#2196F3" stroke-width="1" />
+            <text x="60" y="255" font-family="Arial" font-size="12">+ destination_id: int (PK)</text>
+            <text x="60" y="275" font-family="Arial" font-size="12">+ name: string</text>
+            <text x="60" y="295" font-family="Arial" font-size="12">+ country: string</text>
+            <text x="60" y="315" font-family="Arial" font-size="12">+ price: decimal</text>
+
+            <!-- Third Row: Bookings and Reviews -->
+            <rect x="500" y="200" width="250" height="120" fill="#fff" stroke="#2196F3" stroke-width="2" rx="4" />
+            <text x="625" y="225" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="14">BOOKINGS</text>
+            <line x1="500" y1="235" x2="750" y2="235" stroke="#2196F3" stroke-width="1" />
+            <text x="510" y="255" font-family="Arial" font-size="12">+ booking_id: int (PK)</text>
+            <text x="510" y="275" font-family="Arial" font-size="12">+ user_id: int (FK)</text>
+            <text x="510" y="295" font-family="Arial" font-size="12">+ destination_id: int (FK)</text>
+            <text x="510" y="315" font-family="Arial" font-size="12">+ travel_date: date</text>
+
+            <!-- Fourth Row: Analytics and Reviews -->
+            <rect x="50" y="370" width="250" height="120" fill="#fff" stroke="#2196F3" stroke-width="2" rx="4" />
+            <text x="175" y="395" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="14">ANALYTICS</text>
+            <line x1="50" y1="405" x2="300" y2="405" stroke="#2196F3" stroke-width="1" />
+            <text x="60" y="425" font-family="Arial" font-size="12">+ analytics_id: int (PK)</text>
+            <text x="60" y="445" font-family="Arial" font-size="12">+ chart_type: string</text>
+            <text x="60" y="465" font-family="Arial" font-size="12">+ chart_data: JSON</text>
+            <text x="60" y="485" font-family="Arial" font-size="12">+ last_updated: timestamp</text>
+
+            <rect x="500" y="370" width="250" height="120" fill="#fff" stroke="#2196F3" stroke-width="2" rx="4" />
+            <text x="625" y="395" text-anchor="middle" font-family="Arial" font-weight="bold" font-size="14">REVIEWS</text>
+            <line x1="500" y1="405" x2="750" y2="405" stroke="#2196F3" stroke-width="1" />
+            <text x="510" y="425" font-family="Arial" font-size="12">+ review_id: int (PK)</text>
+            <text x="510" y="445" font-family="Arial" font-size="12">+ user_id: int (FK)</text>
+            <text x="510" y="465" font-family="Arial" font-size="12">+ booking_id: int (FK)</text>
+            <text x="510" y="485" font-family="Arial" font-size="12">+ rating: int</text>
+
+            <!-- Relationships -->
+            <!-- API to Destinations -->
+            <path d="M175 150 L175 200" fill="none" stroke="#666" stroke-width="1.5" marker-end="url(#arrowhead)" />
+            <text x="185" y="180" font-family="Arial" font-size="11">Data Feed</text>
+
+            <!-- Destinations to Analytics -->
+            <path d="M175 320 L175 370" fill="none" stroke="#666" stroke-width="1.5" marker-end="url(#arrowhead)" />
+            <text x="185" y="350" font-family="Arial" font-size="11">Data Source</text>
+
+            <!-- Users to Bookings -->
+            <path d="M625 150 L625 200" fill="none" stroke="#666" stroke-width="1.5" marker-end="url(#arrowhead)" />
+            <text x="635" y="180" font-family="Arial" font-size="11">1:N</text>
+
+            <!-- Users to Reviews -->
+            <path d="M750 90 L780 90 L780 430 L750 430" fill="none" stroke="#666" stroke-width="1.5" marker-end="url(#arrowhead)" />
+            <text x="760" y="250" font-family="Arial" font-size="11">1:N</text>
+
+            <!-- Destinations to Bookings -->
+            <path d="M300 260 L500 260" fill="none" stroke="#666" stroke-width="1.5" marker-end="url(#arrowhead)" />
+            <text x="400" y="250" font-family="Arial" font-size="11">1:N</text>
+
+            <!-- Arrow Marker -->
+            <defs>
+                <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+                    <polygon points="0 0, 8 3, 0 6" fill="#666" />
+                </marker>
+            </defs>
+        </svg>
+    </div>
+
+    <div class="model-description" style="padding-left: 20px;">
+        <h3 style="text-align: left; margin-bottom: 1rem;">Database & API Integration Schema</h3>
+        <p>Our application combines external API data with local database storage:</p>
+        <div class="relationships">
+            <div class="relationship-item" style="margin-left: 0; padding-left: 0;">
+                <h4 style="text-align: left; margin-bottom: 1rem; color: #2196F3;">API Data Flow</h4>
+                <p>External API feeds destination data, which is then used for analytics visualization.</p>
+            </div>
+            <div class="relationship-item" style="margin-left: 0; padding-left: 0;">
+                <h4 style="text-align: left; margin-bottom: 1rem; color: #2196F3;">User Interactions</h4>
+                <p>Users can make multiple bookings and leave multiple reviews, maintaining a direct relationship with both tables.</p>
+            </div>
+            <div class="relationship-item" style="margin-left: 0; padding-left: 0;">
+                <h4 style="text-align: left; margin-bottom: 1rem; color: #2196F3;">Data Processing</h4>
+                <p>Destination data flows through to analytics for generating insights and visualizations.</p>
+            </div>
+        </div>
+    </div>
+</div>
+            
+            
+            <!-- Tech Stack Section -->
+            <div class="tech-stack">
+                <h3>Technology Stack</h3>
+                <div class="tech-grid">
+                    <div class="tech-item">
+                        <i class="fab fa-html5"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js"></i>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fas fa-chart-line"></i>
+                        <p>Chart.js</p>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-git-alt"></i>
+                        <p>Git</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <h3 class="footer-title">Fly <span>Europe</span></h3>
+        <p>© 2024 FlyEurope. All rights reserved.</p>
+        <p>Contact: info@flyeurope.com | +123-456-7890</p>
+        <p>Address: London, UK - 400104</p>
+    </footer>
+
+    <script>
+        mermaid.initialize({
+            theme: 'default',
+            startOnLoad: true
+        });
+    </script>
+</body>
+</html>

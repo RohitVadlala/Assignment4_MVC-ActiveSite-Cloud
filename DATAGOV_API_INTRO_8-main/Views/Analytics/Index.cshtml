@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytics - Backpack to Europe</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <style>
+        body {
+            background-color: #e0e0e0;
+        }
+        .analytics-section { padding: 8rem 7% 2rem; }
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(4, 1fr);
+            gap: 1.5rem; max-width: 1200px; margin: 0 auto 3rem; padding: 0 2rem;
+        }
+        .stat-card {
+            background: #fff; padding: 1.5rem; border-radius: 8px;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1); text-align: center;
+        }
+        .stat-value { font-size: 2rem; font-weight: bold; color: #2196F3; margin: 0.5rem 0; }
+        .stat-label { color: #666; font-size: 1rem; }
+        .charts-grid {
+            display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;
+            margin: 2rem auto; max-width: 1200px; padding: 0 2rem;
+        }
+        .chart-container {
+            background: #fff; padding: 2rem; border-radius: 8px;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1); min-height: 400px;
+        }
+        .chart-container.full-width { grid-column: 1 / -1; min-height: 350px; }
+        .chart-header {
+            display: flex; justify-content: space-between;
+            align-items: center; margin-bottom: 2rem;
+        }
+        .chart-title { font-size: 1.2rem; font-weight: 600; color: #333; margin: 0; }
+        .filter-select {
+            padding: 0.5rem 1rem; border: 1px solid rgba(0,0,0,.1);
+            border-radius: 4px; font-size: 0.9rem; background-color: #fff; cursor: pointer;
+        }
+        .chart-container canvas { width: 100% !important; max-height: 300px !important; }
+        .full-width canvas { max-height: 250px !important; }
+        .heading { text-align: center; font-size: 3rem; color: #333; padding: 1rem; margin: 2rem 0; }
+        .heading span { color: #2196F3; }
+        .footer {
+            background: #f9f9f9; padding: 2rem 0; text-align: center; margin-top: 4rem; width: 100%;
+        }
+        .footer-title { font-size: 2rem; color: #333; margin-bottom: 1rem; }
+        .footer-title span { color: #2196F3; }
+        .footer p { color: #666; margin: 0.5rem 0; font-size: 0.9rem; }
+        .footer {
+            background: #f9f9f9;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .footer-logo h3 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo span {
+            color: #2196F3;
+        }
+
+        .footer-info p {
+            color: #666;
+            margin: 0.5rem 0;
+        }
+        @@media (max-width: 992px) {
+            .charts-grid { grid-template-columns: 1fr; padding: 0 1rem; }
+            .stats-grid { grid-template-columns: repeat(2, 1fr); padding: 0 1rem; }
+            .chart-container { min-height: 350px; }
+            .heading { font-size: 2.5rem; }
+        }
+        @@media (max-width: 576px) {
+            .stats-grid { grid-template-columns: 1fr; }
+            .chart-container { padding: 1.5rem; }
+            .heading { font-size: 2rem; }
+            .stat-value { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="/" class="logo">Fly<span>Europe</span></a>
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="/About">About</a>
+            <a href="/Destinations">Destinations</a>
+            <a href="/Bookings">Bookings</a>
+            <a href="/Analytics" class="active">Analytics</a>
+            <a href="/Contact">Contact</a>
+            <a href="/Reviews">Reviews</a>
+        </nav>
+    </header>
+
+    <section class="analytics-section">
+        <h2 class="heading">Travel <span>Analytics</span></h2>
+        <div class="stats-grid">
+            <div class="stat-card"><div class="stat-value">15,234</div><div class="stat-label">Total Bookings</div></div>
+            <div class="stat-card"><div class="stat-value">€2.1M</div><div class="stat-label">Revenue</div></div>
+            <div class="stat-card"><div class="stat-value">4.8</div><div class="stat-label">Average Rating</div></div>
+            <div class="stat-card"><div class="stat-value">89%</div><div class="stat-label">Customer Satisfaction</div></div>
+        </div>
+
+        <!-- Charts Grid -->
+        <div class="charts-grid">
+            <div class="chart-container">
+                <div class="chart-header"><h3 class="chart-title">Popular Destinations</h3></div>
+                <canvas id="popularDestChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <div class="chart-header"><h3 class="chart-title">Emerging Destinations</h3></div>
+                <canvas id="emergingDestChart"></canvas>
+            </div>
+            <div class="chart-container full-width">
+                <div class="chart-header"><h3 class="chart-title">Monthly Booking Trends</h3></div>
+                <canvas id="bookingTrendChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <div class="chart-header"><h3 class="chart-title">Satisfaction by Category</h3></div>
+                <canvas id="satisfactionChart"></canvas>
+            </div>
+            <div class="chart-container">
+                <div class="chart-header"><h3 class="chart-title">Age Group Distribution</h3></div>
+                <canvas id="demographicsChart"></canvas>
+            </div>
+            <div class="chart-container full-width">
+                <div class="chart-header"><h3 class="chart-title">Net Promoter Score Trend</h3></div>
+                <canvas id="npsChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo"><h3> Fly<span> Europe</span> </h3></div>
+            <div class="footer-info">
+                <p>© 2024 FlyEurope. All rights reserved.</p>
+                <p>Contact: info@flyeurope.com | +123-456-7890</p>
+                <p>Address: London, UK - 400104</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Chart Data
+        const chartData = {
+            popularDestinations: [30, 25, 20, 15, 10],
+            emergingDestinations: [45, 35, 30, 28, 25],
+            monthlyBookings: [1200, 1350, 1500, 1800, 2100, 2400, 2800, 2600, 2200, 1900, 1600, 1400],
+            satisfaction: [45, 30, 15, 10],
+            demographics: [20, 35, 25, 15, 5],
+            npsTrend: [65, 68, 72, 75, 78, 82]
+        };
+
+        // Initialize Charts
+        window.onload = function () {
+            new Chart(document.getElementById('popularDestChart'), {
+                type: 'pie',
+                data: {
+                    labels: ['Paris', 'Rome', 'Barcelona', 'Amsterdam', 'Prague'],
+                    datasets: [{
+                        data: chartData.popularDestinations,
+                        backgroundColor: ['#2196F3', '#4CAF50', '#FF9800', '#E91E63', '#9C27B0']
+                    }]
+                },
+                options: { responsive: true }
+            });
+
+            new Chart(document.getElementById('emergingDestChart'), {
+                type: 'bar',
+                data: {
+                    labels: ['Amsterdam', 'Paris', 'Rome', 'Swiss Alps', 'Barcelona'],
+                    datasets: [{ label: 'Growth Rate (%)', data: chartData.emergingDestinations, backgroundColor: '#2196F3' }]
+                },
+                options: { responsive: true }
+            });
+
+            new Chart(document.getElementById('bookingTrendChart'), {
+                type: 'line',
+                data: {
+                    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                    datasets: [{ label: 'Bookings 2024', data: chartData.monthlyBookings, borderColor: '#2196F3', fill: true }]
+                },
+                options: { responsive: true }
+            });
+
+            new Chart(document.getElementById('satisfactionChart'), {
+                type: 'pie',
+                data: { labels: ['Excellent', 'Good', 'Average', 'Poor'], datasets: [{ data: chartData.satisfaction, backgroundColor: ['#2196F3', '#64B5F6', '#90CAF9', '#BBDEFB'] }] },
+                options: { responsive: true }
+            });
+
+            new Chart(document.getElementById('demographicsChart'), {
+                type: 'doughnut',
+                data: { labels: ['18-24', '25-34', '35-44', '45-54', '55+'], datasets: [{ data: chartData.demographics, backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'] }] },
+                options: { responsive: true }
+            });
+
+            new Chart(document.getElementById('npsChart'), {
+                type: 'line',
+                data: { labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'], datasets: [{ label: 'NPS Score', data: chartData.npsTrend, borderColor: '#FFCE56', fill: false }] },
+                options: { responsive: true }
+            });
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Your Web App</title>
+    
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="~/css/style.css" />
+
+    <!-- Optional Styles Section for additional inline or page-specific styles -->
+    @if (IsSectionDefined("Styles"))
+    {
+        @RenderSection("Styles", required: false)
+    }
+</head>
+<body>
+
+    <main role="main" class="container">
+        @RenderBody()
+    </main>
+
+
+    <!-- Main JavaScript file -->
+    <script src="~/js/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+
+
+    <!-- Optional Scripts Section for additional inline or page-specific scripts -->
+    @if (IsSectionDefined("Scripts"))
+    {
+        @RenderSection("Scripts", required: false)
+    }
+</body>
+</html>

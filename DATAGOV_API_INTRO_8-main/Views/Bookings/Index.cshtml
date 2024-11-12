@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings - Backpack to Europe</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #e0e0e0;
+        }
+        .bookings-section {
+            padding: 8rem 7% 2rem;
+        }
+
+        .bookings-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Booking Form Styles */
+        .booking-form {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            margin-bottom: 3rem;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 0.5rem;
+                color: #333;
+                font-weight: 500;
+            }
+
+            .form-group input,
+            .form-group select {
+                width: 100%;
+                padding: 0.8rem;
+                border: 1px solid rgba(0,0,0,.1);
+                border-radius: 4px;
+                font-size: 0.9rem;
+            }
+
+                .form-group input:focus,
+                .form-group select:focus {
+                    border-color: #2196F3;
+                    outline: none;
+                    box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+                }
+
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        .btn {
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn {
+            background: #2196F3;
+            color: white;
+        }
+
+            .submit-btn:hover {
+                background: #1976D2;
+            }
+
+        /* Bookings Table Styles */
+        .bookings-table {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(0,0,0,.1);
+        }
+
+        th {
+            background: #f8f9fa;
+            color: #333;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .status {
+            padding: 0.4rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+            .status.confirmed {
+                background: #e3f2fd;
+                color: #2196F3;
+            }
+
+            .status.pending {
+                background: #fff3e0;
+                color: #ff9800;
+            }
+
+            .status.cancelled {
+                background: #ffebee;
+                color: #f44336;
+            }
+
+        .action-btn {
+            padding: 0.4rem 0.8rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-right: 0.5rem;
+        }
+
+        .edit-btn {
+            background: #e3f2fd;
+            color: #2196F3;
+        }
+
+        .cancel-btn {
+            background: #ffebee;
+            color: #f44336;
+        }
+
+        .edit-btn:hover {
+            background: #bbdefb;
+        }
+
+        .cancel-btn:hover {
+            background: #ffcdd2;
+        }
+
+        .footer {
+            background: #f9f9f9;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        .footer-logo h3 {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .footer-logo span {
+            color: #2196F3;
+        }
+
+        .footer-info p {
+            color: #666;
+            margin: 0.5rem 0;
+        }
+
+        @@media (max-width: 768px) {
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .bookings-table {
+                overflow-x: auto;
+            }
+
+            th, td {
+                padding: 0.8rem;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="/" class="logo">Fly Europe</a>
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="/About">About</a>
+            <a href="/Destinations">Destinations</a>
+            <a href="/Bookings" class="active">Bookings</a>
+            <a href="/Analytics">Analytics</a>
+            <a href="/Contact">Contact</a>
+            <a href="/Reviews">Reviews</a>
+        </nav>
+    </header>
+
+    <section class="bookings-section">
+        <div class="bookings-container">
+            <h2 class="heading">Book Your <span>Trip</span></h2>
+
+            <!-- Booking Form -->
+            <div class="booking-form">
+                <form id="bookingForm">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="destination">Destination</label>
+                            <select id="destination" required>
+                                <option value="">Select Destination</option>
+                                <option value="paris">Paris, France</option>
+                                <option value="rome">Rome, Italy</option>
+                                <option value="barcelona">Barcelona, Spain</option>
+                                <option value="amsterdam">Amsterdam, Netherlands</option>
+                                <option value="swissAlps">Swiss Alps, Switzerland</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="travelers">Number of Travellers</label>
+                            <input type="number" id="travelers" min="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="departure">Departure Date</label>
+                            <input type="date" id="departure" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="return">Return Date</label>
+                            <input type="date" id="return" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="accommodation">Accommodation Type</label>
+                            <select id="accommodation" required>
+                                <option value="">Select Accommodation</option>
+                                <option value="hotel">Hotel</option>
+                                <option value="hostel">Hostel</option>
+                                <option value="apartment">Apartment</option>
+                            </select>
+                        </div>
+                        <div class="form-group full-width">
+                            <button type="submit" class="btn submit-btn" id="submitBtn">Book Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Bookings Table -->
+            <div class="bookings-table">
+                <h2 class="heading">Your <span>Bookings</span></h2>
+                <table>
+                <thead>
+                    <tr>
+                        <th>Booking ID</th>
+                        <th>Destination</th>
+                        <th>Travel Dates</th>
+                        <th>Travellers</th>
+                        <th>Total Cost</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="bookingsTableBody">
+                    <!-- Rows will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3> Fly<span> Europe</span> </h3>
+            </div>
+            <div class="footer-info">
+                <p>© 2024 FlyEurope. All rights reserved.</p>
+                <p>Contact: info@flyeurope.com | +123-456-7890</p>
+                <p>Address: London, UK - 400104</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+            let editingBookingId = null;
+            let bookings = JSON.parse(localStorage.getItem('bookings')) || [
+                {
+                    id: 'BK001',
+                    destination: 'Paris, France',
+                    dates: '15 Mar - 22 Mar 2024',
+                    travelers: 2,
+                    cost: '€1,398',
+                    status: 'confirmed',
+                    name: 'John Doe',
+                    email: 'john@example.com',
+                    phone: '1234567890',
+                    accommodation: 'hotel'
+                }
+            ];
+
+            // Clear localStorage for testing (Step 7 - optional)
+            localStorage.removeItem('bookings');
+
+            document.addEventListener('DOMContentLoaded', function () {
+                setTimeout(() => {
+                    displayBookings();  // Delay displayBookings (Step 8)
+                }, 0);
+                setupDateValidation();
+            });
+
+            document.getElementById('bookingForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+                handleBooking();
+            });
+
+            function displayBookings() {
+                const tbody = document.getElementById('bookingsTableBody');
+                tbody.innerHTML = '';
+
+                bookings.forEach((booking, index) => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>#${booking.id}</td>
+                        <td>${booking.destination}</td>
+                        <td>${booking.dates}</td>
+                        <td>${booking.travelers}</td>
+                        <td>${booking.cost}</td>
+                        <td><span class="status ${booking.status}">${capitalizeFirst(booking.status)}</span></td>
+                        <td>
+                            ${booking.status !== 'cancelled' ? `
+                                <button class="action-btn edit-btn" onclick="editBooking('${booking.id}')">Edit</button>
+                                <button class="action-btn cancel-btn" onclick="cancelBooking('${booking.id}')">Cancel</button>
+                            ` : '-'}
+                        </td>
+                    `;
+                    tbody.appendChild(tr);
+
+                    // Log each appended row to verify (for debugging)
+                    console.log(`Row for booking ID ${booking.id} appended.`);
+                });
+
+                // Force DOM reflow by toggling a class (Step 6)
+                tbody.classList.toggle('force-update');
+            }
+
+            function handleBooking() {
+                const formData = {
+                    destination: document.getElementById('destination').options[document.getElementById('destination').selectedIndex].text,
+                    travelers: document.getElementById('travelers').value,
+                    departure: document.getElementById('departure').value,
+                    return: document.getElementById('return').value,
+                    name: document.getElementById('name').value,
+                    email: document.getElementById('email').value,
+                    phone: document.getElementById('phone').value,
+                    accommodation: document.getElementById('accommodation').value
+                };
+
+                if (editingBookingId) {
+                    const index = bookings.findIndex(b => b.id === editingBookingId);
+                    if (index !== -1) {
+                        bookings[index] = {
+                            ...bookings[index],
+                            destination: formData.destination,
+                            dates: `${formatDate(formData.departure)} - ${formatDate(formData.return)}`,
+                            travelers: parseInt(formData.travelers),
+                            cost: calculateCost(formData.destination, formData.travelers),
+                            name: formData.name,
+                            email: formData.email,
+                            phone: formData.phone,
+                            accommodation: formData.accommodation
+                        };
+                    }
+                    editingBookingId = null;
+                    document.getElementById('submitBtn').textContent = 'Book Now';
+                } else {
+                    const newBooking = {
+                        id: generateBookingId(),
+                        destination: formData.destination,
+                        dates: `${formatDate(formData.departure)} - ${formatDate(formData.return)}`,
+                        travelers: parseInt(formData.travelers),
+                        cost: calculateCost(formData.destination, formData.travelers),
+                        status: 'pending',
+                        name: formData.name,
+                        email: formData.email,
+                        phone: formData.phone,
+                        accommodation: formData.accommodation
+                    };
+                    bookings.push(newBooking);
+                }
+
+                localStorage.setItem('bookings', JSON.stringify(bookings));
+                displayBookings();
+                document.getElementById('bookingForm').reset();
+                alert(editingBookingId ? 'Booking updated successfully!' : 'Booking created successfully!');
+            }
+
+            function editBooking(bookingId) {
+                const booking = bookings.find(b => b.id === bookingId);
+                if (!booking) return;
+
+                document.getElementById('destination').value = booking.destination.toLowerCase().split(',')[0];
+                document.getElementById('travelers').value = booking.travelers;
+
+                const [startDate, endDate] = booking.dates.split(' - ').map(formatDate);
+                document.getElementById('departure').value = startDate;
+                document.getElementById('return').value = endDate;
+
+                document.getElementById('name').value = booking.name;
+                document.getElementById('email').value = booking.email;
+                document.getElementById('phone').value = booking.phone;
+                document.getElementById('accommodation').value = booking.accommodation;
+
+                document.getElementById('submitBtn').textContent = 'Update Booking';
+                editingBookingId = bookingId;
+
+                document.querySelector('.booking-form').scrollIntoView({ behavior: 'smooth' });
+            }
+
+            function cancelBooking(bookingId) {
+                if (confirm('Are you sure you want to cancel this booking?')) {
+                    const index = bookings.findIndex(b => b.id === bookingId);
+                    if (index !== -1) {
+                        bookings[index].status = 'cancelled';
+                        localStorage.setItem('bookings', JSON.stringify(bookings));
+                        displayBookings();
+                    }
+                }
+            }
+
+            function calculateCost(destination, travelers) {
+                const costPerPerson = {
+                    'Paris, France': 899,
+                    'Rome, Italy': 799,
+                    'Barcelona, Spain': 699,
+                    'Amsterdam, Netherlands': 749,
+                    'Swiss Alps, Switzerland': 1299
+                };
+                const perPersonCost = costPerPerson[destination] || 500; // Default to 500 if destination not found
+                return `€${(perPersonCost * travelers).toLocaleString()}`;
+            }
+
+            function formatDate(dateString) {
+                const date = new Date(dateString);
+                if (!isNaN(date)) {
+                    return date.toISOString().slice(0, 10);
+                }
+                return '';
+            }
+
+            function generateBookingId() {
+                return 'BK' + String(Date.now()).slice(-6);
+            }
+
+            function setupDateValidation() {
+                const today = new Date().toISOString().split('T')[0];
+                document.getElementById('departure').min = today;
+            }
+
+            function capitalizeFirst(string) {
+                return string.charAt(0).toUpperCase() + string.slice(1);
+            }
+
+        </script>
+
+</body>
+</html>

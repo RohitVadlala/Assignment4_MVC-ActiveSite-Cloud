@@ -1,0 +1,523 @@
+@{
+    ViewData["Title"] = "Destinations - Backpack to Europe";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #e0e0e0;
+        }
+
+        }
+        .destinations-section {
+        padding: 8rem 7% 2rem;
+        margin-top: 2rem; /* Adjust this value as needed */
+        }
+
+        header {
+        position: sticky;
+        top: 0;
+        z-index: 10;
+        background-color: white; /* Ensure header has a background */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem 0;
+        }
+
+        .destinations-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        /* Filter Section */
+        .filter-section {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            margin-bottom: 2rem;
+        }
+
+        .filter-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            align-items: end;
+        }
+
+        .filter-group {
+            margin-bottom: 1rem;
+        }
+
+            .filter-group label {
+                display: block;
+                margin-bottom: 0.5rem;
+                color: #333;
+                font-size: 0.9rem;
+            }
+
+            .filter-group select,
+            .filter-group input {
+                width: 100%;
+                padding: 0.8rem;
+                border: 1px solid rgba(0,0,0,.1);
+                border-radius: 4px;
+                font-size: 0.9rem;
+                background-color: #fff;
+            }
+
+        .filter-buttons {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .filter-btn {
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+
+        .apply-btn {
+            background: #2196F3;
+            color: #fff;
+        }
+
+        .reset-btn {
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .apply-btn:hover {
+            background: #1976D2;
+        }
+
+        .reset-btn:hover {
+            background: #e0e0e0;
+        }
+
+        /* Destinations Grid */
+        .destinations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .destination-card {
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+            transition: transform 0.3s ease;
+        }
+
+        .destination-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .destination-image {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .destination-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .destination-card:hover .destination-image img {
+            transform: scale(1.1);
+        }
+
+        .destination-price {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(33, 150, 243, 0.9);
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .destination-content {
+            padding: 1.5rem;
+        }
+
+        .destination-title {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .destination-location {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .destination-description {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .destination-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(0,0,0,.1);
+        }
+
+        .destination-rating {
+            color: #ffd700;
+        }
+
+        .book-btn {
+            background: #2196F3;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .book-btn:hover {
+            background: #1976D2;
+        }
+
+        .wishlist-btn {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            background: rgba(255,255,255,0.9);
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .wishlist-btn i {
+            color: #666;
+            transition: color 0.3s ease;
+        }
+
+        .wishlist-btn.active i {
+            color: #f44336;1
+        }
+
+        @@media (max-width: 768px) {
+            .filter-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filter-buttons {
+                flex-direction: column;
+            }
+
+            .destinations-grid {
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+
+        <a href="/" class="logo">
+            Fly<span>Europe</span>
+        </a>
+
+        <nav class="navbar">
+            <a href="/">Home</a>
+            <a href="/About">About</a>
+            <a href="/Destinations" class="active">Destinations</a>
+            <a href="/Bookings">Bookings</a>
+            <a href="/Analytics">Analytics</a>
+            <a href="/Contact">Contact</a>
+            <a href="/Reviews">Reviews</a>
+        </nav>
+    </header>
+
+    <!-- Destinations Section -->
+    <section class="destinations-section">
+        <h2 class="heading">Popular <span>Destinations</span></h2>
+
+        <div class="destinations-container">
+            <!-- Filter Section -->
+            <div class="filter-section">
+                <div class="filter-grid">
+                    <div class="filter-group">
+                        <label for="country">Country</label>
+                        <select id="country">
+                            <option value="">All Countries</option>
+                            <option value="france">France</option>
+                            <option value="italy">Italy</option>
+                            <option value="spain">Spain</option>
+                            <option value="switzerland">Switzerland</option>
+                            <option value="netherlands">Netherlands</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="priceRange">Price Range</label>
+                        <select id="priceRange">
+                            <option value="">All Prices</option>
+                            <option value="budget">Budget (&lt; €500)</option>
+                            <option value="moderate">Moderate (€500 - €1000)</option>
+                            <option value="luxury">Luxury (&gt; €1000)</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="duration">Duration</label>
+                        <select id="duration">
+                            <option value="">Any Duration</option>
+                            <option value="short">Short Trip (1-3 days)</option>
+                            <option value="medium">Medium Trip (4-7 days)</option>
+                            <option value="long">Long Trip (8+ days)</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="rating">Minimum Rating</label>
+                        <select id="rating">
+                            <option value="">Any Rating</option>
+                            <option value="4">4+ Stars</option>
+                            <option value="3">3+ Stars</option>
+                            <option value="2">2+ Stars</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-buttons">
+                        <button class="filter-btn apply-btn" onclick="applyFilters()">Apply Filters</button>
+                        <button class="filter-btn reset-btn" onclick="resetFilters()">Reset</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destinations Grid -->
+            <div class="destinations-grid" id="destinationsGrid">
+                <!-- Destination cards will be added dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3> Fly<span> Europe</span> </h3>
+            </div>
+            <div class="footer-info">
+                <p>© 2024 FlyEurope. All rights reserved.</p>
+                <p>Contact: info@flyeurope.com | +123-456-7890</p>
+                <p>Address: London, UK - 400104</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        .footer {
+            background: #f9f9f9;
+            padding: 2rem 0;
+            text-align: center;
+            margin-top: 4rem;
+            width: 100%;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+            text-align: center;
+        }
+
+        .footer-logo {
+            margin-bottom: 1rem;
+        }
+
+            .footer-logo h3 {
+                font-size: 2rem;
+                color: #333;
+                margin-bottom: 1rem;
+                text-align: center;
+            }
+
+            .footer-logo span {
+                color: #2196F3;
+            }
+
+        .footer-info {
+            text-align: center;
+        }
+
+            .footer-info p {
+                color: #666;
+                margin: 0.5rem 0;
+                text-align: center;
+            }
+    </style>
+
+    <script>
+        // Sample destinations data
+        const destinations = [
+            {
+                id: 1,
+                name: "Paris",
+                country: "France",
+                image: "@Url.Content("~/images/paris.jpg")",
+                price: 899,
+                rating: 4.8,
+                duration: "5 days",
+                description: "Experience the magic of the City of Light with its iconic landmarks and rich culture.",
+                category: "moderate"
+            },
+            {
+                id: 2,
+                name: "Rome",
+                country: "Italy",
+                image: "@Url.Content("~/images/rome.jpg")",
+                price: 799,
+                rating: 4.7,
+                duration: "6 days",
+                description: "Discover the eternal city's ancient ruins, art, and world-renowned cuisine.",
+                category: "moderate"
+            },
+            {
+                id: 3,
+                name: "Barcelona",
+                country: "Spain",
+                image: "@Url.Content("~/images/barcelona.jpg")",
+                price: 699,
+                rating: 4.6,
+                duration: "4 days",
+                description: "Explore the unique architecture and vibrant culture of this Mediterranean gem.",
+                category: "budget"
+            },
+            {
+                id: 4,
+                name: "Amsterdam",
+                country: "Netherlands",
+                image: "@Url.Content("~/images/amsterdam.jpg")",
+                price: 749,
+                rating: 4.5,
+                duration: "4 days",
+                description: "Experience the charm of canals, museums, and Dutch culture.",
+                category: "budget"
+            },
+            {
+                id: 5,
+                name: "Swiss Alps",
+                country: "Switzerland",
+                image: "@Url.Content("~/images/swiss.jpeg")",
+                price: 1299,
+                rating: 4.9,
+                duration: "7 days",
+                description: "Adventure in the majestic mountains with stunning views and outdoor activities.",
+                category: "luxury"
+            },
+        ];
+
+        function createDestinationCard(destination) {
+            return `
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="${destination.image}" alt="${destination.name}">
+                        <div class="destination-price">€${destination.price}</div>
+                        <div class="wishlist-btn" onclick="toggleWishlist(this)">
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="destination-content">
+                        <h3 class="destination-title">${destination.name}</h3>
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            ${destination.country}
+                        </div>
+                        <p class="destination-description">${destination.description}</p>
+                        <div class="destination-meta">
+                            <div class="destination-rating">
+                                ${"★".repeat(Math.floor(destination.rating))}
+                                <span style="color: #666;">(${destination.rating})</span>
+                            </div>
+                            <a href="#" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function displayDestinations(filteredDestinations = destinations) {
+            const grid = document.getElementById('destinationsGrid');
+            grid.innerHTML = filteredDestinations.map(createDestinationCard).join('');
+        }
+
+        function applyFilters() {
+            const country = document.getElementById('country').value;
+            const priceRange = document.getElementById('priceRange').value;
+            const rating = document.getElementById('rating').value;
+
+            let filtered = destinations;
+
+            if (country) {
+                filtered = filtered.filter(dest => dest.country.toLowerCase() === country);
+            }
+
+            if (priceRange) {
+                filtered = filtered.filter(dest => dest.category === priceRange);
+            }
+
+            if (rating) {
+                filtered = filtered.filter(dest => dest.rating >= parseInt(rating));
+            }
+
+            displayDestinations(filtered);
+        }
+
+        function resetFilters() {
+            document.getElementById('country').value = '';
+            document.getElementById('priceRange').value = '';
+            document.getElementById('duration').value = '';
+            document.getElementById('rating').value = '';
+            displayDestinations();
+        }
+
+        function toggleWishlist(btn) {
+            btn.classList.toggle('active');
+            const icon = btn.querySelector('i');
+            icon.classList.toggle('far');
+            icon.classList.toggle('fas');
+        }
+
+        // Initial display
+        displayDestinations();
+    </script>
+    <script src="~/js/script.js" defer></script>
+</body>
+</html>

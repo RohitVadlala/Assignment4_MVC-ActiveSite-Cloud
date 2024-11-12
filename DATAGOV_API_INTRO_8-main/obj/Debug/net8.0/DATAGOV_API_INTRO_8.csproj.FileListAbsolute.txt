@@ -1,0 +1,184 @@
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/bin/Debug/net8.0/appsettings.Development.json
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/bin/Debug/net8.0/appsettings.json
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/bin/Debug/net8.0/DATAGOV_API_INTRO_8.staticwebassets.runtime.json
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/bin/Debug/net8.0/DATAGOV_API_INTRO_8
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/bin/Debug/net8.0/DATAGOV_API_INTRO_8.deps.json
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/bin/Debug/net8.0/DATAGOV_API_INTRO_8.runtimeconfig.json
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/bin/Debug/net8.0/DATAGOV_API_INTRO_8.dll
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/bin/Debug/net8.0/DATAGOV_API_INTRO_8.pdb
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.csproj.AssemblyReference.cache
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.GeneratedMSBuildEditorConfig.editorconfig
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.AssemblyInfoInputs.cache
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.AssemblyInfo.cs
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.csproj.CoreCompileInputs.cache
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.MvcApplicationPartsAssemblyInfo.cache
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.RazorAssemblyInfo.cache
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.RazorAssemblyInfo.cs
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/staticwebassets.build.json
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/staticwebassets.development.json
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/staticwebassets/msbuild.DATAGOV_API_INTRO_8.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/staticwebassets/msbuild.build.DATAGOV_API_INTRO_8.props
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.DATAGOV_API_INTRO_8.props
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.DATAGOV_API_INTRO_8.props
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/scopedcss/bundle/DATAGOV_API_INTRO_8.styles.css
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/scopedcss/projectbundle/DATAGOV_API_INTRO_8.bundle.scp.css
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_.C29B2D5B.Up2Date
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.dll
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/refint/DATAGOV_API_INTRO_8.dll
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.pdb
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.genruntimeconfig.cache
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/ref/DATAGOV_API_INTRO_8.dll
+/Users/harshasaijagu/Downloads/Course Work/DIS GA/Apps/DATAGOV_API_INTRO_8/obj/Debug/net8.0/DATAGOV_API_INTRO_8.sourcelink.json
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.exe
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\appsettings.json
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.staticwebassets.runtime.json
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.deps.json
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.runtimeconfig.json
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.pdb
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Azure.Core.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Azure.Identity.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Newtonsoft.Json.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Drawing.Common.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Memory.Data.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Runtime.Caching.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Security.Permissions.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Windows.Extensions.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.csproj.AssemblyReference.cache
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.AssemblyInfoInputs.cache
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.AssemblyInfo.cs
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.csproj.CoreCompileInputs.cache
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.RazorAssemblyInfo.cache
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.RazorAssemblyInfo.cs
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets\msbuild.DATAGOV_API_INTRO_8.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets\msbuild.build.DATAGOV_API_INTRO_8.props
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DATAGOV_API_INTRO_8.props
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DATAGOV_API_INTRO_8.props
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\scopedcss\bundle\DATAGOV_API_INTRO_8.styles.css
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_.C29B2D5B.Up2Date
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\refint\DATAGOV_API_INTRO_8.dll
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.pdb
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.genruntimeconfig.cache
+c:\Users\Pavan Teja\Documents\DIS\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\ref\DATAGOV_API_INTRO_8.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\appsettings.Development.json
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\appsettings.json
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.staticwebassets.runtime.json
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.exe
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.deps.json
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.runtimeconfig.json
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\DATAGOV_API_INTRO_8.pdb
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Azure.Core.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Azure.Identity.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\Newtonsoft.Json.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Drawing.Common.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Memory.Data.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Runtime.Caching.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Security.Permissions.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\System.Windows.Extensions.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.csproj.AssemblyReference.cache
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.AssemblyInfoInputs.cache
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.AssemblyInfo.cs
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.csproj.CoreCompileInputs.cache
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.RazorAssemblyInfo.cache
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.RazorAssemblyInfo.cs
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets.build.json
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets.development.json
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets\msbuild.DATAGOV_API_INTRO_8.Microsoft.AspNetCore.StaticWebAssets.props
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets\msbuild.build.DATAGOV_API_INTRO_8.props
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.DATAGOV_API_INTRO_8.props
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.DATAGOV_API_INTRO_8.props
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\staticwebassets.pack.json
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\scopedcss\bundle\DATAGOV_API_INTRO_8.styles.css
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_.C29B2D5B.Up2Date
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\refint\DATAGOV_API_INTRO_8.dll
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.pdb
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\DATAGOV_API_INTRO_8.genruntimeconfig.cache
+c:\Users\vadla\Downloads\DATAGOV_API_INTRO_8-main\DATAGOV_API_INTRO_8-main\obj\Debug\net8.0\ref\DATAGOV_API_INTRO_8.dll

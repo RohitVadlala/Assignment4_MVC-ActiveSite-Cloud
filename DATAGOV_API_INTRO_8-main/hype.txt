@@ -1,0 +1,699 @@
+{
+    "search_metadata": {
+        "id": "67327a84717bff540cfe6aee",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/61633741b5b529a7/67327a84717bff540cfe6aee.json",
+        "created_at": "2024-11-11 21:43:32 UTC",
+        "processed_at": "2024-11-11 21:43:32 UTC",
+        "google_url": "https://www.google.com/search?q=Rome+Destinations&oq=Rome+Destinations&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/61633741b5b529a7/67327a84717bff540cfe6aee.html",
+        "total_time_taken": 0.84
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "Rome Destinations",
+        "google_domain": "google.com",
+        "device": "desktop"
+    },
+    "search_information": {
+        "query_displayed": "Rome Destinations",
+        "total_results": 71900000,
+        "time_taken_displayed": 0.44,
+        "organic_results_state": "Results for exact spelling"
+    },
+    "ads": [
+        {
+            "position": 1,
+            "block_position": "top",
+            "title": "Must Do in Rome - Top 10 Things to Do in Rome",
+            "link": "https://www.viator.com/Rome-tourism/d511-r6517261091-s109979531",
+            "displayed_link": "https://www.viator.com › things-to-do › rome",
+            "thumbnail": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/2cd8676a23f0e418609b7bd4fbfa2e80.jpeg",
+            "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChcSEwi3s4fwn9WJAxUfWUcBHaiAKwIYABA8GgJxdQ&co=1&ase=2&gclid=EAIaIQobChMIt7OH8J_ViQMVH1lHAR2ogCsCEAAYASAFEgIKhfD_BwE&sig=AOD64_2uzL_k63KM7YhK82TnV82VWaNLYQ&q=&nis=4&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQh78CegQIPhAB&adurl=",
+            "description": "Best Tourist Attractions in 2024 in Rome. Free Cancellation & Full Refund Available. Find & Book the Best Rome Attractions. Attractions, Activities, Excursions & More in Rome.",
+            "source": "Viator",
+            "sitelinks": [
+                {
+                    "title": "Top Rome Italy Tours",
+                    "link": "https://www.viator.com/Rome/d511-ttd?CLSLE1"
+                },
+                {
+                    "title": "Family Day Trips",
+                    "link": "https://www.viator.com/Rome-tours/Kid-Friendly/d511-g21?CLSLE9"
+                },
+                {
+                    "title": "Visit Borghese Gallery",
+                    "link": "https://www.viator.com/Rome-tourism/d511-r7243206851-s109979531?AGLSL1"
+                },
+                {
+                    "title": "Sistine Chapel Tours",
+                    "link": "https://www.viator.com/Rome-tourism/d511-r7984912331-s126602651?AGLSL3"
+                }
+            ]
+        },
+        {
+            "position": 2,
+            "block_position": "top",
+            "title": "The Best Italy Itineraries - Rome Vacations",
+            "link": "https://www.goaheadtours.com/tours/europe-tours/italy-tours/rome",
+            "displayed_link": "https://www.goaheadtours.com",
+            "thumbnail": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/c6b07960d3ac90a12ab4de95f37d5c3a.jpeg",
+            "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChcSEwi3s4fwn9WJAxUfWUcBHaiAKwIYABBDGgJxdQ&co=1&ase=2&gclid=EAIaIQobChMIt7OH8J_ViQMVH1lHAR2ogCsCEAAYAiABEgLzPPD_BwE&sig=AOD64_3IjGX1mEvScClhvosInCRX4_WKRA&q=&nis=4&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQh78CegQIDBAB&adurl=",
+            "source": "goaheadtours.com"
+        },
+        {
+            "position": 3,
+            "block_position": "top",
+            "title": "Rome Trips | Check Out Great Package Deals",
+            "link": "https://www.expedia.com/Rome.d179899.Destination-Travel-Guides?locale=en_US&siteid=1&semtnl=empackagev1&semcid=US.UB.GOOGLE.DT-m-EN.PACKAGE",
+            "displayed_link": "https://www.expedia.com/trip/book_now",
+            "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChcSEwi3s4fwn9WJAxUfWUcBHaiAKwIYABAEGgJxdQ&co=1&ase=2&gclid=EAIaIQobChMIt7OH8J_ViQMVH1lHAR2ogCsCEAAYAyAAEgIk1PD_BwE&sig=AOD64_0_IZNiTqbiE8CxOOaYW1x5_LWWtA&q&nis=4&adurl",
+            "description": "Compare Rome Trips. View Options and Reserve Now on Expedia. Design Your Own...",
+            "source": "Expedia.com"
+        },
+        {
+            "position": 4,
+            "block_position": "bottom",
+            "title": "What to visit in Rome? | What to see in Rome?",
+            "link": "https://www.palazzomerulana.it/en/",
+            "displayed_link": "https://www.palazzomerulana.it › museum-rome",
+            "tracking_link": "https://www.google.com/aclk?sa=L&ai=DChcSEwi3s4fwn9WJAxUfWUcBHaiAKwIYABABGgJxdQ&co=1&ase=2&gclid=EAIaIQobChMIt7OH8J_ViQMVH1lHAR2ogCsCEAMYASAAEgIFQ_D_BwE&sig=AOD64_3QghpreKeAEr7uV9VHjmeZGAV7ow&q&nis=4&adurl",
+            "description": "What to visit in Rome? Palazzo Merulana Museum: De Chirico, Balla and much more. Book now! Masterpieces by Giacomo Balla, Mario Sironi, Giorgio De Chirico and other masters in Rome. Iscriviti alla newsletter. Prepara la tua visita. Acquista i biglietti.",
+            "source": "Palazzo Merulana",
+            "sitelinks": [
+                {
+                    "title": "La Collezione",
+                    "link": "https://www.palazzomerulana.it/la-collezione/"
+                },
+                {
+                    "title": "Mostra: Tecnologie Urbane",
+                    "link": "https://www.palazzomerulana.it/events/tecnologie-urbane/"
+                },
+                {
+                    "title": "Eventi privati",
+                    "link": "https://www.palazzomerulana.it/eventi-privati/"
+                },
+                {
+                    "title": "Eventi & Mostre",
+                    "link": "https://www.palazzomerulana.it/events/"
+                }
+            ]
+        }
+    ],
+    "top_sights": {
+        "sights": [
+            {
+                "title": "Colosseum",
+                "link": "https://www.google.com#",
+                "description": "Historical landmark",
+                "rating": 4.7,
+                "reviews": 419000,
+                "price": "$19.18",
+                "extracted_price": 19.18,
+                "thumbnail": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/f2de4605c363f70206705bfea23f2a537393c614960db32752ea2dfcad5bc751.jpeg"
+            },
+            {
+                "title": "Trevi Fountain",
+                "link": "https://www.google.com#",
+                "description": "Fountain",
+                "rating": 4.8,
+                "reviews": 437000,
+                "price": "Free",
+                "thumbnail": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/f2de4605c363f70206705bfea23f2a53878e415e93ec2417f242bfb154f9d812.jpeg"
+            },
+            {
+                "title": "Pantheon",
+                "link": "https://www.google.com#",
+                "description": "Historical landmark",
+                "rating": 4.8,
+                "reviews": 241000,
+                "price": "$5.33",
+                "extracted_price": 5.33,
+                "thumbnail": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/f2de4605c363f70206705bfea23f2a53c172f0b1053702baff07bd94abcbc2e2.jpeg"
+            },
+            {
+                "title": "Roman Forum",
+                "link": "https://www.google.com#",
+                "description": "Open air museum",
+                "rating": 4.7,
+                "reviews": 131000,
+                "price": "$19.18",
+                "extracted_price": 19.18,
+                "thumbnail": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/f2de4605c363f70206705bfea23f2a53160f90ba9d9c12d985de345012e31656.jpeg"
+            },
+            {
+                "title": "Piazza Navona",
+                "link": "https://www.google.com#",
+                "description": "Plaza",
+                "rating": 4.7,
+                "reviews": 193000,
+                "price": "Free",
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPuS9DvjtSqXpmfTwXevZw74z5IjTvYZnEhUJu3=w148-h148-n-k-no"
+            },
+            {
+                "title": "St. Peter's Basilica",
+                "link": "https://www.google.com#",
+                "description": "Basilica",
+                "rating": 4.8,
+                "reviews": 151000,
+                "price": "Free",
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOjtfEdk2TrowRwr8M4_tIWolgEoL0ML9kaNYt5=w148-h148-n-k-no"
+            },
+            {
+                "title": "Spanish Steps",
+                "link": "https://www.google.com#",
+                "description": "Monument",
+                "rating": 4.6,
+                "reviews": 82000,
+                "price": "Free",
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipONU-ACCm5kviuQCQhl4bCpm2Rq7fUzHpeqRGwx=w148-h148-n-k-no"
+            },
+            {
+                "title": "Castel Sant'Angelo",
+                "link": "https://www.google.com#",
+                "description": "Castle",
+                "rating": 4.7,
+                "reviews": 90000,
+                "price": "$17.05",
+                "extracted_price": 17.05,
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipMi29fml2kijo0eT0YDzToqJZPov1TuvooDCyN3=w148-h148-n-k-no"
+            },
+            {
+                "title": "Sistine Chapel",
+                "link": "https://www.google.com#",
+                "description": "Catholic church",
+                "rating": 4.7,
+                "reviews": 83000,
+                "price": "$21.31",
+                "extracted_price": 21.31,
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipOfEHCDyq5Or1bUlzYA5Goh6KlS1bYEl537uBPb=w148-h148-n-k-no"
+            },
+            {
+                "title": "Galleria Borghese",
+                "link": "https://www.google.com#",
+                "description": "Art museum",
+                "rating": 4.6,
+                "reviews": 24000,
+                "price": "$13.85",
+                "extracted_price": 13.85,
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPnXZURqJFrz1yGW5FXRv53C3M4HWh4Xzw6FVDs=w148-h148-n-k-no"
+            },
+            {
+                "title": "Monument to Victor Emmanuel II",
+                "link": "https://www.google.com#",
+                "description": "Historical landmark",
+                "rating": 4.8,
+                "reviews": 67000,
+                "price": "Free",
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipNEe5u5w0JaYrGwa3TUw2bneSC_qCwVuhxq6M1l=w148-h148-n-k-no"
+            },
+            {
+                "title": "Papal Basilica of Saint Mary Major",
+                "link": "https://www.google.com#",
+                "description": "Basilica",
+                "rating": 4.8,
+                "reviews": 38000,
+                "price": "Free",
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipP19q1VfMJ1MLE8BX1sg6CvEROdt73Ls5h8-tmV=w148-h148-n-k-no"
+            },
+            {
+                "title": "Piazza del Popolo",
+                "link": "https://www.google.com#",
+                "description": "Plaza",
+                "rating": 4.7,
+                "reviews": 111000,
+                "price": "Free",
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPGFcnaeLc74sMrqeOLJezAtVaHByUtAzbaLjbj=w148-h148-n-k-no"
+            },
+            {
+                "title": "Baths of Caracalla",
+                "link": "https://www.google.com#",
+                "description": "Historical place",
+                "rating": 4.6,
+                "reviews": 23000,
+                "price": "$13.85",
+                "extracted_price": 13.85,
+                "thumbnail": "https://lh3.googleusercontent.com/proxy/N2RUlFUmXWcSsOpcqxyFe_-N-A5VEMZUCNtWW9Afq6Ao0c_sJYT0CjJALvcNzJKbRJT5AlxiehC3P8ZqnWP0cESHzNez-Eziw0j6smYp_9DWO5kM19a4v5NalIAQ9QbvuTt0ZadFGPns4FyqB68UPor7-gdr0w=w148-h148-n-k-no"
+            },
+            {
+                "title": "Villa Borghese",
+                "link": "https://www.google.com#",
+                "description": "Park",
+                "rating": 4.6,
+                "reviews": 84000,
+                "price": "Free",
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPdmUFke_k9Qkn2eLDmXGK_UUMdmgUo35ugTxnU=w148-h148-n-k-no"
+            },
+            {
+                "title": "Capitoline Museums",
+                "link": "https://www.google.com#",
+                "description": "Art museum",
+                "rating": 4.7,
+                "reviews": 16000,
+                "price": "$14.92",
+                "extracted_price": 14.92,
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPIHG5DJb2p7Wh4Vbp_XggBVa4KWj_C6R85UYv_=w148-h148-n-k-no"
+            },
+            {
+                "title": "Vatican Museums",
+                "link": "https://www.google.com#",
+                "description": "Art museum",
+                "rating": 4.6,
+                "reviews": 182000,
+                "price": "$21.31",
+                "extracted_price": 21.31,
+                "thumbnail": "https://lh3.googleusercontent.com/proxy/orvbFfKsmawNwJ5QYczNGqppSBE8xcMQuMGN-a_BtJGtGayPv5NlmfE11MOrGuovGiXQuZ3phTeI8oUYmLU98l-UGycRKvTJeCXtYwvYLmafRjP3EHSZUnjRdQaubjyQydvXOycoMPrF4IU_vllfeYHPX5SnJg=w148-h148-n-k-no"
+            },
+            {
+                "title": "Basilica of San Giovanni in Laterano",
+                "link": "https://www.google.com#",
+                "description": "Basilica",
+                "rating": 4.8,
+                "reviews": 26000,
+                "price": "Free",
+                "thumbnail": "https://lh5.googleusercontent.com/proxy/9MywWzRl2t1SP3jYYyyrUSc0ncygo1ssGLNzoNrH0qJLQY5G3btHr_EY1d8l4jdMLv92meI6Bu8OAzrtn-qq3q0aCGwQ2Lcu9v9OEdsMpXTWklwXPc2jc5snhDus7ONU0KKh9eV2ZFQ4Uh4cj-GslOISp_fmQw=w148-h148-n-k-no"
+            },
+            {
+                "title": "Galleria Doria Pamphilj",
+                "link": "https://www.google.com#",
+                "description": "Art gallery",
+                "rating": 4.6,
+                "reviews": 6600,
+                "price": "$17.05",
+                "extracted_price": 17.05,
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipN1l4AaLi4eg4-6oalAR8yzDMm1ihYH5-_WcyN5=w148-h148-n-k-no"
+            },
+            {
+                "title": "Basilica of San Clemente",
+                "link": "https://www.google.com#",
+                "description": "Basilica",
+                "rating": 4.7,
+                "reviews": 6300,
+                "price": "$10.65",
+                "extracted_price": 10.65,
+                "thumbnail": "https://lh5.googleusercontent.com/p/AF1QipPTCQCIb3_64yxuSyQa9I7BRxl8WcLgJUpq2ko=w148-h148-n-k-no"
+            }
+        ]
+    },
+    "knowledge_graph": {
+        "title": "Rome",
+        "type": "Capital of Italy",
+        "entity_type": "cities, locations, travel, attractions",
+        "kgmid": "/m/06c62",
+        "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/m/06c62&hl=en-US&q=Rome",
+        "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&hl=en-US&kgmid=%2Fm%2F06c62&q=Rome",
+        "image": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/6aa05fc21766d34c408f3af04f97198043b2996cb258f0c9.jpeg",
+        "description": "Rome is the capital city of Italy. It is also the capital of the Lazio region, the centre of the Metropolitan City of Rome Capital, and a special comune named Comune di Roma Capitale.",
+        "source": {
+            "name": "Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/Rome"
+        },
+        "population": "2.76 million (2021) United Nations",
+        "population_links": [
+            {
+                "text": "United Nations",
+                "link": "http://data.un.org/Data.aspx?d=POP&f=tableCode%3A240"
+            }
+        ],
+        "age": "2,776 years",
+        "founded": "April 21, 753 BC",
+        "area": "496 mi²",
+        "elevation": "69′",
+        "province": "Metropolitan City of Rome Capital",
+        "province_links": [
+            {
+                "text": "Metropolitan City of Rome Capital",
+                "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Metropolitan+City+of+Rome+Capital&si=ACC90nyByJNAHfkzzi7l4JA4fcQKXOYDCI7plJH6uVksGWg6XmsyJ-IsCbG2YBXFFnwtliLADOqWT5wi3D3IDrOG1vdDCodh1nEL5k-ViCwoHQiaqcSqsA8FP3wlzoulmPloMubMHpBbAxn6Ih0K2I3ewFhQBlpt_ppj8ae94gPNcCnODD69loXY-3teaO_c9dgsT9HRZlsS64NT1AKDavI_BzyVb1jCQdh5zqVB242AcuK-V8C_6DI%3D&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQmxMoAHoECFQQAg"
+            }
+        ],
+        "neighborhoods": "Trastevere, EUR, Trevi, Prati, Trieste",
+        "neighborhoods_links": [
+            {
+                "text": "Trastevere",
+                "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Trastevere&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L-FywSaly31moKmtSpLDuSFVhtAD8uWt1nWmyF3yXELq1MC9lSS0mnxXstR60AW1YLsL69U5XbnrnKw8Grf9c3ZEtsl938M5-lwCtBkh58w5IE0Lz9hdKpf1Qz-x1Op8CTD1z8aDYc8vJvaZ8TDyIvGBebwZ5KCtzTC7zobT1TdfZh3080MwIkqthN1cTqgWzaBoh-o66hrHwolpdMpzo4-faJBvc0RfBG9SJ9l4av8Fljr9Mw%3D%3D&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQmxMoAHoECEoQAg"
+            },
+            {
+                "text": "EUR",
+                "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=EUR,+Rome&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-Lw-nozFj17lw3GVOwlXN6x-Cj_mDZgs7FvAscBzTxINCo6Watq5Jt90ox7gwy9B_duQzQsx8e2GSH9lVzfVHrMeo9_3PBFMv1l6ypagAyc7OSX6uGj9Jyg1z9l6z5G3PlOt9cxN1YUFqxDOobAg2haa8R4MCGMKw-FRfgMmmDaxMGTF91ZlnzcxCQYENTOrSRV4ctmBKvy8M916ymaf5aOwGdTiX0Hz5QGHLVgvNX706DtjWNg%3D%3D&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQmxMoAXoECEoQAw"
+            },
+            {
+                "text": "Trevi",
+                "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Trevi+(rione+of+Rome)&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L6IjCc2CnayUCKX7YEkK_RSL6epPLSdGJaS65wjFGaSVeXgebzGtB4cWmdY2JtTzCl9uGn0xtFMqg6WZ3UwOFs4C-qb66PmAaJU-stcrDQneXpve8S-kap9BVBNtCOh5vgDlATzpQkNLXnk9JJJyh8i-IsaQFBPAhuE41r3-5LRA7Nq_hxMIznjSJZmkr7py-CtXmt5n0dzLWoOLJ1tW2BFiyLuqRx-YGBF7FmJCtt2ie089dQ%3D%3D&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQmxMoAnoECEoQBA"
+            },
+            {
+                "text": "Prati",
+                "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Prati&si=ACC90nzx_D3_zUKRnpAjmO0UBLNxnt7EyN4YYdru6U3bxLI-L4vRmj9asFe-mYHxW72q7Vky0U0l6gy-bOi867IVKSB9Gfd7KX8Zjkb26fFXFQrYahln-OgKkjj7PJjRmSnb-KpiVGZmLhhmAJfJlpSycGpMUArvzRbs4OmoZMeSiIi58Sh9WNByCOBKI7FcXcceTDFvTU2FcMRaJABFf93iIZZ64LpwldKfqAvLbJZTxL63fvtrhOB3uIDT3DkqrAC6KyZcG5MF&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQmxMoA3oECEoQBQ"
+            },
+            {
+                "text": "Trieste",
+                "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Trieste+(Rome)&si=ACC90nyByJNAHfkzzi7l4JA4fcQKnJZTwFZjuiioX_pEpk9Ep4dtRx98XCZyYKEP6SmaSpiddSIWpWZcLH9hdGGfgvbGVxsUhpldyGJVf-5VJGBtKxD7Hip8akVYNsuf2HqsImvwAKUzen-hmxxiXro7t9M3zC7292laHCOGXK7wKgSS4zKeDmhfzQGHpnsdmE-G4kwdaiUEtOEaKQ9aQnDa0h_n2PXBjDsVhqPQe_Qf7zknbxrqvf5Qq_1pCU8jYxiSZd7A7JQYBT1b8zlLT_gl01dQ_rHfFg%3D%3D&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQmxMoBHoECEoQBg"
+            },
+            {
+                "text": "See more",
+                "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=rome+neighborhoods&stick=H4sIAAAAAAAAAOPgE-LQz9U3MEs2M9JSyE620s_JT04syczP0y_ISUxOtcpLzUzPSMovysjPTylexCpUlJ-bqoAiCADMZGk3QwAAAA&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ44YBKAV6BAhKEAc"
+            }
+        ]
+    },
+    "related_questions": [
+        {
+            "question": "What is the top 3 tourist destinations in Rome?",
+            "snippet": "The 5 most visited places in Rome are: #1 Pantheon (8 million tourists a year), #2 The Colosseum (7.036. 104 tourists a year), #3 Trevi Fountain (3.5 million tourists a year), #4 Sistine Chapel (3 million tourists a year) and #5 The Roman Forum (2.5 million tourists a year).",
+            "title": "List of tourist attractions in Rome - Wikipedia",
+            "link": "https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Rome#:~:text=The%205%20most%20visited%20places,2.5%20million%20tourists%20a%20year).",
+            "displayed_link": "https://en.wikipedia.org › wiki › List_of_tourist_attracti...",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnJiEFrb_JUf2ym4F36fvFBvXbKqyTC_dSoNAQB1zT&s",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2NrZFVabE5yVDA1TFVVaEplVEJrZDA5a1FVSnNaams1WlhwemVqa3plRFpWUlhoVWJHTmlZak5KTVdWTk1GSjZOSE5YVFY4M09IbDJXRzloZG1WWldUSnZUMDlERWhkb1dHOTVXalZZUjBGdlEzUTFUbTlRYkV0UE5HbEJUUm9pUVVaWWNrVmpjbE41UWxBM2QydG5WRGhrTkVKQ2JFRmZTVGRvUWkxZlFWOWhadyIsImZjdiI6IjMiLCJlaSI6ImhYb3laNVhHQW9DdDVOb1BsS080aUFNIiwicWMiOiJDaEZ5YjIxbElHUmxjM1JwYm1GMGFXOXVjeEFBZmZ1RUdEOCIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgdG9wIDMgdG91cmlzdCBkZXN0aW5hdGlvbnMgaW4gUm9tZT8iLCJsayI6IkdpMTNhR0YwSUdseklIUm9aU0IwYjNBZ015QjBiM1Z5YVhOMElHUmxjM1JwYm1GMGFXOXVJR2x1SUhKdmJXVSIsImJzIjoiYzQyT3ZRckNNQlJHY2Mza0tNV2Z6OGxGTGNZSEVKeGNGY1M1cFJjVE1EZlNKSVNPcnI2S295OW83YURWcWN1ZHp2bk9GU1RTazhvOHRJTlhCRy12V05jM2xOcDVGT1M4NXN4cnl3NmFjYkNHTm9ObklkTmtFYnRZYjZtc0paR0xSVHZEd2VSVXdqTEJoRnB4UklpSy1CdTU3ZVV5bWNlT1R0UFlDVFFOcDJ5NEZEenpxR3lBMGE3MS1fMG9wOGtrdGpEOFlzM1NWb3gyTnNKa1hLSElxbzhQWWh2T2FqTjRyT1E0R2FwX3B2d3lfZDRMIiwiaWQiOiJmY19oWG95WjVYR0FvQ3Q1Tm9QbEtPNGlBTV8yIn0=",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2NrZFVabE5yVDA1TFVVaEplVEJrZDA5a1FVSnNaams1WlhwemVqa3plRFpWUlhoVWJHTmlZak5KTVdWTk1GSjZOSE5YVFY4M09IbDJXRzloZG1WWldUSnZUMDlERWhkb1dHOTVXalZZUjBGdlEzUTFUbTlRYkV0UE5HbEJUUm9pUVVaWWNrVmpjbE41UWxBM2QydG5WRGhrTkVKQ2JFRmZTVGRvUWkxZlFWOWhadyIsImZjdiI6IjMiLCJlaSI6ImhYb3laNVhHQW9DdDVOb1BsS080aUFNIiwicWMiOiJDaEZ5YjIxbElHUmxjM1JwYm1GMGFXOXVjeEFBZmZ1RUdEOCIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgdG9wIDMgdG91cmlzdCBkZXN0aW5hdGlvbnMgaW4gUm9tZT8iLCJsayI6IkdpMTNhR0YwSUdseklIUm9aU0IwYjNBZ015QjBiM1Z5YVhOMElHUmxjM1JwYm1GMGFXOXVJR2x1SUhKdmJXVSIsImJzIjoiYzQyT3ZRckNNQlJHY2Mza0tNV2Z6OGxGTGNZSEVKeGNGY1M1cFJjVE1EZlNKSVNPcnI2S295OW83YURWcWN1ZHp2bk9GU1RTazhvOHRJTlhCRy12V05jM2xOcDVGT1M4NXN4cnl3NmFjYkNHTm9ObklkTmtFYnRZYjZtc0paR0xSVHZEd2VSVXdqTEJoRnB4UklpSy1CdTU3ZVV5bWNlT1R0UFlDVFFOcDJ5NEZEenpxR3lBMGE3MS1fMG9wOGtrdGpEOFlzM1NWb3gyTnNKa1hLSElxbzhQWWh2T2FqTjRyT1E0R2FwX3B2d3lfZDRMIiwiaWQiOiJmY19oWG95WjVYR0FvQ3Q1Tm9QbEtPNGlBTV8yIn0%3D"
+        },
+        {
+            "question": "What is the number one must see when in Rome?",
+            "snippet": "The Colosseum in Rome, called the Flavian Amphitheatre in ancient times, is Rome's most impressive monument.",
+            "title": "The Colosseum",
+            "link": "https://www.rome.net/top-10#:~:text=The%20Colosseum%20in%20Rome%2C%20called,is%20Rome's%20most%20impressive%20monument.",
+            "displayed_link": "https://www.rome.net › top-10",
+            "source_logo": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/0d0f84878e467e2d497e1b9fc8ff7167f6b55c04fed3672504b7a41eb46525c7.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2NrZFVabE5yVDA1TFVVaEplVEJrZDA5a1FVSnNaams1WlhwemVqa3plRFpWUlhoVWJHTmlZak5KTVdWTk1GSjZOSE5YVFY4M09IbDJXRzloZG1WWldUSnZUMDlERWhkb1dHOTVXalZZUjBGdlEzUTFUbTlRYkV0UE5HbEJUUm9pUVVaWWNrVmpjbE41UWxBM2QydG5WRGhrTkVKQ2JFRmZTVGRvUWkxZlFWOWhadyIsImZjdiI6IjMiLCJlaSI6ImhYb3laNVhHQW9DdDVOb1BsS080aUFNIiwicWMiOiJDaEZ5YjIxbElHUmxjM1JwYm1GMGFXOXVjeEFBZmZ1RUdEOCIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgbnVtYmVyIG9uZSBtdXN0IHNlZSB3aGVuIGluIFJvbWU/IiwibGsiOiJHaXgzYUdGMElHbHpJSFJvWlNCdWRXMWlaWElnYjI1bElHMTFjM1FnYzJWbElIZG9aVzRnYVc0Z2NtOXRaUSIsImJzIjoiYzQyT3ZRckNNQlJHY2Mza0tNV2Z6OGxGTGNZSEVKeGNGY1M1cFJjVE1EZlNKSVNPcnI2S295OW83YURWcWN1ZHp2bk9GU1RTazhvOHRJTlhCRy12V05jM2xOcDVGT1M4NXN4cnl3NmFjYkNHTm9ObklkTmtFYnRZYjZtc0paR0xSVHZEd2VSVXdqTEJoRnB4UklpSy1CdTU3ZVV5bWNlT1R0UFlDVFFOcDJ5NEZEenpxR3lBMGE3MS1fMG9wOGtrdGpEOFlzM1NWb3gyTnNKa1hLSElxbzhQWWh2T2FqTjRyT1E0R2FwX3B2d3lfZDRMIiwiaWQiOiJmY19oWG95WjVYR0FvQ3Q1Tm9QbEtPNGlBTV8yIn0=",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2NrZFVabE5yVDA1TFVVaEplVEJrZDA5a1FVSnNaams1WlhwemVqa3plRFpWUlhoVWJHTmlZak5KTVdWTk1GSjZOSE5YVFY4M09IbDJXRzloZG1WWldUSnZUMDlERWhkb1dHOTVXalZZUjBGdlEzUTFUbTlRYkV0UE5HbEJUUm9pUVVaWWNrVmpjbE41UWxBM2QydG5WRGhrTkVKQ2JFRmZTVGRvUWkxZlFWOWhadyIsImZjdiI6IjMiLCJlaSI6ImhYb3laNVhHQW9DdDVOb1BsS080aUFNIiwicWMiOiJDaEZ5YjIxbElHUmxjM1JwYm1GMGFXOXVjeEFBZmZ1RUdEOCIsInF1ZXN0aW9uIjoiV2hhdCBpcyB0aGUgbnVtYmVyIG9uZSBtdXN0IHNlZSB3aGVuIGluIFJvbWU%2FIiwibGsiOiJHaXgzYUdGMElHbHpJSFJvWlNCdWRXMWlaWElnYjI1bElHMTFjM1FnYzJWbElIZG9aVzRnYVc0Z2NtOXRaUSIsImJzIjoiYzQyT3ZRckNNQlJHY2Mza0tNV2Z6OGxGTGNZSEVKeGNGY1M1cFJjVE1EZlNKSVNPcnI2S295OW83YURWcWN1ZHp2bk9GU1RTazhvOHRJTlhCRy12V05jM2xOcDVGT1M4NXN4cnl3NmFjYkNHTm9ObklkTmtFYnRZYjZtc0paR0xSVHZEd2VSVXdqTEJoRnB4UklpSy1CdTU3ZVV5bWNlT1R0UFlDVFFOcDJ5NEZEenpxR3lBMGE3MS1fMG9wOGtrdGpEOFlzM1NWb3gyTnNKa1hLSElxbzhQWWh2T2FqTjRyT1E0R2FwX3B2d3lfZDRMIiwiaWQiOiJmY19oWG95WjVYR0FvQ3Q1Tm9QbEtPNGlBTV8yIn0%3D"
+        },
+        {
+            "question": "What shouldn't you miss in Rome?",
+            "title": "Don't miss out on this list of top things to do in Rome you'll want to see on your trip:",
+            "link": "https://www.tiqets.com/en/rome-attractions-c71631/the-10-things-in-rome-you-really-really-shouldnt-miss-cg102/",
+            "list": [
+                "The Pantheon. ... ",
+                "The Colosseum. ... ",
+                "The Roman Forum. ... ",
+                "Castel Sant'Angelo. ... ",
+                "The Borghese Gallery. ... ",
+                "See the pope. ... ",
+                "St Peter's Basilica. ... ",
+                "The Vatican and the Sistine Chapel."
+            ],
+            "displayed_link": "https://www.tiqets.com › rome-attractions-c71631 › the-...",
+            "source_logo": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/0d0f84878e467e2d497e1b9fc8ff71674bd1c44cc7e632d1dba169e65d6667d2.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2NrZFVabE5yVDA1TFVVaEplVEJrZDA5a1FVSnNaams1WlhwemVqa3plRFpWUlhoVWJHTmlZak5KTVdWTk1GSjZOSE5YVFY4M09IbDJXRzloZG1WWldUSnZUMDlERWhkb1dHOTVXalZZUjBGdlEzUTFUbTlRYkV0UE5HbEJUUm9pUVVaWWNrVmpjbE41UWxBM2QydG5WRGhrTkVKQ2JFRmZTVGRvUWkxZlFWOWhadyIsImZjdiI6IjMiLCJlaSI6ImhYb3laNVhHQW9DdDVOb1BsS080aUFNIiwicWMiOiJDaEZ5YjIxbElHUmxjM1JwYm1GMGFXOXVjeEFBZmZ1RUdEOCIsInF1ZXN0aW9uIjoiV2hhdCBzaG91bGRuJ3QgeW91IG1pc3MgaW4gUm9tZT8iLCJsayI6IkdoOTNhR0YwSUhOb2IzVnNaRzRnZENCNWIzVWdiV2x6Y3lCcGJpQnliMjFsIiwiYnMiOiJjNDJPdlFyQ01CUkdjYzNrS01XZno4bEZMY1lIRUp4Y0ZjUzVwUmNUTURmU0pJU09ycjZLb3k5bzdhRFZxY3VkenZuT0ZTVFNrOG84dElOWEJHLXZXTmMzbE5wNUZPUzg1c3hyeXc2YWNiQ0dOb05uSWROa0VidFliNm1zSlpHTFJUdkR3ZVJVd2pMQmhGcHhSSWlLLUJ1NTdlVXltY2VPVHRQWUNUUU5wMnk0RkR6enFHeUEwYTcxLV8wb3A4a2t0akQ4WXMzU1ZveDJOc0prWEtISXFvOFBZaHZPYWpONHJPUTRHYXBfcHZ3eV9kNEwiLCJpZCI6ImZjX2hYb3laNVhHQW9DdDVOb1BsS080aUFNXzIifQ==",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2NrZFVabE5yVDA1TFVVaEplVEJrZDA5a1FVSnNaams1WlhwemVqa3plRFpWUlhoVWJHTmlZak5KTVdWTk1GSjZOSE5YVFY4M09IbDJXRzloZG1WWldUSnZUMDlERWhkb1dHOTVXalZZUjBGdlEzUTFUbTlRYkV0UE5HbEJUUm9pUVVaWWNrVmpjbE41UWxBM2QydG5WRGhrTkVKQ2JFRmZTVGRvUWkxZlFWOWhadyIsImZjdiI6IjMiLCJlaSI6ImhYb3laNVhHQW9DdDVOb1BsS080aUFNIiwicWMiOiJDaEZ5YjIxbElHUmxjM1JwYm1GMGFXOXVjeEFBZmZ1RUdEOCIsInF1ZXN0aW9uIjoiV2hhdCBzaG91bGRuJ3QgeW91IG1pc3MgaW4gUm9tZT8iLCJsayI6IkdoOTNhR0YwSUhOb2IzVnNaRzRnZENCNWIzVWdiV2x6Y3lCcGJpQnliMjFsIiwiYnMiOiJjNDJPdlFyQ01CUkdjYzNrS01XZno4bEZMY1lIRUp4Y0ZjUzVwUmNUTURmU0pJU09ycjZLb3k5bzdhRFZxY3VkenZuT0ZTVFNrOG84dElOWEJHLXZXTmMzbE5wNUZPUzg1c3hyeXc2YWNiQ0dOb05uSWROa0VidFliNm1zSlpHTFJUdkR3ZVJVd2pMQmhGcHhSSWlLLUJ1NTdlVXltY2VPVHRQWUNUUU5wMnk0RkR6enFHeUEwYTcxLV8wb3A4a2t0akQ4WXMzU1ZveDJOc0prWEtISXFvOFBZaHZPYWpONHJPUTRHYXBfcHZ3eV9kNEwiLCJpZCI6ImZjX2hYb3laNVhHQW9DdDVOb1BsS080aUFNXzIifQ%3D%3D"
+        },
+        {
+            "question": "How many days in Rome enough?",
+            "snippet": "Rome has it all — incredible art and architecture, rich history, and mouthwatering cuisine. But with so much to see and do, you may wonder how long to spend there. That's where we come in. We recommend spending four days in Rome to fully experience all it has to offer.",
+            "title": "How Many Days Do You Need in Rome? The Ultimate 4-Day Itinerary",
+            "date": "Apr 1, 2024",
+            "link": "https://www.airalo.com/blog/how-many-days-do-you-need-in-rome-the-ultimate-4-day-itinerary#:~:text=Rome%20has%20it%20all%20%E2%80%94%20incredible,all%20it%20has%20to%20offer.",
+            "displayed_link": "https://www.airalo.com › blog › how-many-days-do-you...",
+            "source_logo": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/0d0f84878e467e2d497e1b9fc8ff7167d12cc28e2c94eeb0d50c1d3d5cce7883.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2NrZFVabE5yVDA1TFVVaEplVEJrZDA5a1FVSnNaams1WlhwemVqa3plRFpWUlhoVWJHTmlZak5KTVdWTk1GSjZOSE5YVFY4M09IbDJXRzloZG1WWldUSnZUMDlERWhkb1dHOTVXalZZUjBGdlEzUTFUbTlRYkV0UE5HbEJUUm9pUVVaWWNrVmpjbE41UWxBM2QydG5WRGhrTkVKQ2JFRmZTVGRvUWkxZlFWOWhadyIsImZjdiI6IjMiLCJlaSI6ImhYb3laNVhHQW9DdDVOb1BsS080aUFNIiwicWMiOiJDaEZ5YjIxbElHUmxjM1JwYm1GMGFXOXVjeEFBZmZ1RUdEOCIsInF1ZXN0aW9uIjoiSG93IG1hbnkgZGF5cyBpbiBSb21lIGVub3VnaD8iLCJsayI6IkdoeG9iM2NnYldGdWVTQmtZWGx6SUdsdUlISnZiV1VnWlc1dmRXZG8iLCJicyI6ImM0Mk92UXJDTUJSR2NjM2tLTVdmejhsRkxjWUhFSnhjRmNTNXBSY1RNRGZTSklTT3JyNktveTlvN2FEVnFjdWR6dm5PRlNUU2s4bzh0SU5YQkctdldOYzNsTnA1Rk9TODVzeHJ5dzZhY2JDR05vTm5JZE5rRWJ0WWI2bXNKWkdMUlR2RHdlUlV3akxCaEZweFJJaUstQnU1N2VVeW1jZU9UdFBZQ1RRTnAyeTRGRHp6cUd5QTBhNzEtXzBvcDhra3RqRDhZczNTVm94Mk5zSmtYS0hJcW84UFlodk9hak40ck9RNEdhcF9wdnd5X2Q0TCIsImlkIjoiZmNfaFhveVo1WEdBb0N0NU5vUGxLTzRpQU1fMiJ9",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRW9zQkNreEJTa2M1U210T2NrZFVabE5yVDA1TFVVaEplVEJrZDA5a1FVSnNaams1WlhwemVqa3plRFpWUlhoVWJHTmlZak5KTVdWTk1GSjZOSE5YVFY4M09IbDJXRzloZG1WWldUSnZUMDlERWhkb1dHOTVXalZZUjBGdlEzUTFUbTlRYkV0UE5HbEJUUm9pUVVaWWNrVmpjbE41UWxBM2QydG5WRGhrTkVKQ2JFRmZTVGRvUWkxZlFWOWhadyIsImZjdiI6IjMiLCJlaSI6ImhYb3laNVhHQW9DdDVOb1BsS080aUFNIiwicWMiOiJDaEZ5YjIxbElHUmxjM1JwYm1GMGFXOXVjeEFBZmZ1RUdEOCIsInF1ZXN0aW9uIjoiSG93IG1hbnkgZGF5cyBpbiBSb21lIGVub3VnaD8iLCJsayI6IkdoeG9iM2NnYldGdWVTQmtZWGx6SUdsdUlISnZiV1VnWlc1dmRXZG8iLCJicyI6ImM0Mk92UXJDTUJSR2NjM2tLTVdmejhsRkxjWUhFSnhjRmNTNXBSY1RNRGZTSklTT3JyNktveTlvN2FEVnFjdWR6dm5PRlNUU2s4bzh0SU5YQkctdldOYzNsTnA1Rk9TODVzeHJ5dzZhY2JDR05vTm5JZE5rRWJ0WWI2bXNKWkdMUlR2RHdlUlV3akxCaEZweFJJaUstQnU1N2VVeW1jZU9UdFBZQ1RRTnAyeTRGRHp6cUd5QTBhNzEtXzBvcDhra3RqRDhZczNTVm94Mk5zSmtYS0hJcW84UFlodk9hak40ck9RNEdhcF9wdnd5X2Q0TCIsImlkIjoiZmNfaFhveVo1WEdBb0N0NU5vUGxLTzRpQU1fMiJ9"
+        }
+    ],
+    "organic_results": [
+        {
+            "position": 1,
+            "title": "Things to do in Rome - 25x Attractions & Sightseeing",
+            "link": "https://romesite.com/attractions.html",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://romesite.com/attractions.html&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQFnoECBYQAQ",
+            "displayed_link": "https://romesite.com › attractions",
+            "thumbnail": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/a6cddf334c76428d59cf3594b3c920b2349a1902e505a26e71a8017997f53756.jpeg",
+            "favicon": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/a6cddf334c76428d59cf3594b3c920b2937a557a54f93a77c18c46f0e7f35bf5.png",
+            "snippet": "Best things to do in Rome Italy - Top 25 Rome attractions · 1. Places to visit: Colosseum · 2. Trevi Fountain of Rome · 3. Must see: Pantheon · 4. St. Peter's ...",
+            "snippet_highlighted_words": [
+                "Rome attractions"
+            ],
+            "rich_snippet": {
+                "top": {
+                    "detected_extensions": {
+                        "rating": 4.8,
+                        "reviews": 14
+                    },
+                    "extensions": [
+                        "4.8(14)"
+                    ]
+                }
+            },
+            "source": "Visit Rome Italy"
+        },
+        {
+            "position": 2,
+            "title": "THE 15 BEST Things to Do in Rome (2024)",
+            "link": "https://www.tripadvisor.com/Attractions-g187791-Activities-Rome_Lazio.html",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.tripadvisor.com/Attractions-g187791-Activities-Rome_Lazio.html&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQFnoFCIcBEAE",
+            "displayed_link": "https://www.tripadvisor.com › ... › Italy › Lazio › Rome",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyykoCYGqwYzwWff3n_wyWkgIJbpfiL-d2aC9BVAAcPZq9UMLKkpXn&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/a6cddf334c76428d59cf3594b3c920b28b176bcdfa7081ba169dadb0996bcf1c.png",
+            "snippet": "Top Attractions in Rome · 1. Colosseum · 150,437. Historic Sites · 2. Pantheon · 80,119. Ancient Ruins · 3. Fontana di Trevi · 104,086. Fountains · 4. Trastevere.",
+            "snippet_highlighted_words": [
+                "Attractions",
+                "Rome"
+            ],
+            "source": "Tripadvisor"
+        },
+        {
+            "position": 3,
+            "title": "13 unmissable attractions in Rome",
+            "link": "https://www.timeout.com/rome/things-to-do/best-attractions-in-rome",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.timeout.com/rome/things-to-do/best-attractions-in-rome&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQFnoFCIwBEAE",
+            "displayed_link": "https://www.timeout.com › rome › things-to-do › best-a...",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmBr4IpA3__cybZtaJX_Lfqt2BccPLkubkQypwwXkri7FpwB_mdIQ8&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/a6cddf334c76428d59cf3594b3c920b28cc9000d0857d7768d825913a5618c1a.png",
+            "date": "Oct 22, 2024",
+            "snippet": "Best Rome attractions · 1. Colosseum · 2. The Vatican Museums and Sistine Chapel · 3. Pantheon · 4. Roman Forum and Palatine · 5. MAXXI · 6.",
+            "snippet_highlighted_words": [
+                "Rome attractions"
+            ],
+            "source": "Time Out"
+        },
+        {
+            "position": 4,
+            "title": "Must-see attractions Rome, Lazio",
+            "link": "https://www.lonelyplanet.com/italy/rome/attractions",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.lonelyplanet.com/italy/rome/attractions&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQFnoFCI4BEAE",
+            "displayed_link": "https://www.lonelyplanet.com › Europe › Italy › Lazio",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRutaUHKmmdUD-sdIaQu8-ibvWhDntNxzGjpGM_VI0o3GOj24QBc-G_&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/a6cddf334c76428d59cf3594b3c920b2d9f151573706ec385d9686b08cd618f9.png",
+            "snippet": "Discover the best attractions in Rome including Vatican Museums, St Peter's Basilica, and Roman Forum.",
+            "snippet_highlighted_words": [
+                "attractions",
+                "Rome"
+            ],
+            "source": "Lonely Planet"
+        },
+        {
+            "position": 5,
+            "title": "Things to Do in Rome - Top Attractions in Rome",
+            "link": "https://www.rome.net/attractions",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.rome.net/attractions&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQFnoFCIkBEAE",
+            "displayed_link": "https://www.rome.net › attractions",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT101qtIuuZLE_3PZXoPyJfyOOUbWWYuShl_FTtJy8MALp3rLOIt3vu&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/a6cddf334c76428d59cf3594b3c920b297e213cf7c793ad11f31f60cb0509d20.png",
+            "snippet": "Rome is a city full of history and offers countless things to see and do including museums, monuments and parks. Discover Rome's most popular attractions.",
+            "snippet_highlighted_words": [
+                "Rome",
+                "Rome's",
+                "attractions"
+            ],
+            "sitelinks": {
+                "inline": [
+                    {
+                        "title": "Top 10 Sights in Rome",
+                        "link": "https://www.rome.net/top-10"
+                    },
+                    {
+                        "title": "Museums in Rome",
+                        "link": "https://www.rome.net/museums"
+                    },
+                    {
+                        "title": "Churches of Rome",
+                        "link": "https://www.rome.net/churches"
+                    },
+                    {
+                        "title": "Vatican City",
+                        "link": "https://www.rome.net/vatican-city"
+                    }
+                ]
+            },
+            "source": "Rome Tourism"
+        },
+        {
+            "position": 6,
+            "title": "26 Best Things to Do in Rome, According to Our Local Expert",
+            "link": "https://www.cntraveler.com/gallery/best-things-to-do-in-rome",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.cntraveler.com/gallery/best-things-to-do-in-rome&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQFnoFCIsBEAE",
+            "displayed_link": "https://www.cntraveler.com › gallery › best-things-to-d...",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRufQiNFy2p6N5fTbbcuBs6jLgoXow5P9fbsEUxCVOeMNc6CqNKUrcp&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/a6cddf334c76428d59cf3594b3c920b21e3b4b6e78cb02b42e11f8b752d2ab63.png",
+            "date": "Mar 29, 2024",
+            "snippet": "Palazzo Spada · Monte Mario Nature Reserve · Case Romane del Celio in Rome · Sant'Ivo alla Sapienza · Galleria Doria Pamphilj · Villa Doria Pamphilj.",
+            "snippet_highlighted_words": [
+                "Rome"
+            ],
+            "source": "Condé Nast Traveler"
+        },
+        {
+            "position": 7,
+            "title": "24 Best Things to Do in Rome | U.S. News Travel",
+            "link": "https://travel.usnews.com/Rome_Italy/Things_To_Do/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://travel.usnews.com/Rome_Italy/Things_To_Do/&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQFnoFCIYBEAE",
+            "displayed_link": "https://travel.usnews.com › ... › Europe › Italy",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzRJOZIlUMemRudu-f1q32gqkeMG2Y0wzHELGQCJaBcWdch0ztcd35&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/a6cddf334c76428d59cf3594b3c920b29a8f9a44b5e380974551a581fd68acb5.png",
+            "snippet": "24 Best Things to Do in Rome · #1. View all Photos. Colosseum (Colosseo) · #2. View all Photos. Vatican Museums and Sistine Chapel · #3. View all Photos · St. · #4.",
+            "snippet_highlighted_words": [
+                "Rome"
+            ],
+            "source": "U.S. News Travel"
+        },
+        {
+            "position": 8,
+            "title": "List of tourist attractions in Rome",
+            "link": "https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Rome",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Rome&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQFnoFCI0BEAE",
+            "displayed_link": "https://en.wikipedia.org › wiki › List_of_tourist_attracti...",
+            "favicon": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/a6cddf334c76428d59cf3594b3c920b237fa1bfceb42fa011c1dceec28d7b15c.png",
+            "snippet": "The 5 most visited places in Rome are: #1 Pantheon (8 million tourists a year), #2 The Colosseum (7.036.104 tourists a year), #3 Trevi Fountain (3.5 million ...",
+            "snippet_highlighted_words": [
+                "Rome"
+            ],
+            "sitelinks": {
+                "inline": [
+                    {
+                        "title": "Religious edifices",
+                        "link": "https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Rome#Religious_edifices"
+                    },
+                    {
+                        "title": "Secular edifices, parks, public...",
+                        "link": "https://en.wikipedia.org/wiki/List_of_tourist_attractions_in_Rome#Secular_edifices,_parks,_public_spaces_and_monuments"
+                    }
+                ]
+            },
+            "source": "Wikipedia"
+        },
+        {
+            "position": 9,
+            "title": "THE TOP 15 Things To Do in Rome (UPDATED 2024)",
+            "link": "https://www.viator.com/Rome/d511",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.viator.com/Rome/d511&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQFnoFCIgBEAE",
+            "displayed_link": "https://www.viator.com › Things to do in Italy",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfPNRDTQfsc8NfgZ4MBkvxuYQkyXBwfBxlJSCdGMqR-jV5QFwOIiHf&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/a6cddf334c76428d59cf3594b3c920b29c69e1a1f16aacfb56227198ca3ad2a4.png",
+            "snippet": "Top 15 attractions in Rome · Colosseum · Vatican Museums (Musei Vaticani) · Roman Forum (Foro Romano) · Sistine Chapel (Cappella Sistina) · Palatine Hill (Palatino).",
+            "snippet_highlighted_words": [
+                "attractions",
+                "Rome"
+            ],
+            "sitelinks": {
+                "inline": [
+                    {
+                        "title": "Rome Tours",
+                        "link": "https://www.viator.com/Rome/d511-ttd"
+                    },
+                    {
+                        "title": "Ancient Rome Tours & Tickets",
+                        "link": "https://www.viator.com/Rome-attractions/Ancient-Rome/d511-a14016"
+                    },
+                    {
+                        "title": "Colosseum Tours and Tickets",
+                        "link": "https://www.viator.com/Rome-attractions/Colosseum/d511-a701"
+                    }
+                ]
+            },
+            "source": "Viator"
+        },
+        {
+            "position": 10,
+            "title": "Rome's Top 10 Attractions",
+            "link": "https://www.travelchannel.com/destinations/italy/rome/articles/romes-top-10-attractions",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.travelchannel.com/destinations/italy/rome/articles/romes-top-10-attractions&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQFnoFCIoBEAE",
+            "displayed_link": "https://www.travelchannel.com › ... › Rome › Articles",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvqCEHCUdYTUmJILptpudncaaR6nm8QXeOPw3yg8RHSUI9FfLpUAhP&usqp=CAE&s",
+            "favicon": "https://serpapi.com/searches/67327a84717bff540cfe6aee/images/a6cddf334c76428d59cf3594b3c920b2b6e289ae91c6a8ca38e743aa5bb39b3a.png",
+            "snippet": "Explore Rome's history and visit the city's world-renown monuments, churches and restored ruins that offer a glimpse at the great Roman Empire.",
+            "snippet_highlighted_words": [
+                "Rome's"
+            ],
+            "source": "Travel Channel"
+        }
+    ],
+    "top_stories_link": "https://www.google.com/search?q=Rome+Destinations&sca_esv=93dba3a330e5cf9e&udm=15&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQxN8JegQINRAz",
+    "top_stories_serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations",
+    "related_searches": [
+        {
+            "block_position": 1,
+            "query": "Top 10 places to visit in Rome",
+            "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Top+10+places+to+visit+in+Rome&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ1QJ6BQi1ARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Top+10+places+to+visit+in+Rome"
+        },
+        {
+            "block_position": 1,
+            "query": "Places to visit in Rome in 1 day",
+            "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Places+to+visit+in+Rome+in+1+day&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ1QJ6BQi2ARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Places+to+visit+in+Rome+in+1+day"
+        },
+        {
+            "block_position": 1,
+            "query": "Rome attractions map",
+            "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Rome+attractions+map&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ1QJ6BQi0ARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+attractions+map"
+        },
+        {
+            "block_position": 1,
+            "query": "Best rome destinations",
+            "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Best+rome+destinations&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ1QJ6BQiyARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Best+rome+destinations"
+        },
+        {
+            "block_position": 1,
+            "query": "Places to visit in Rome for free",
+            "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Places+to+visit+in+Rome+for+free&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ1QJ6BQiwARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Places+to+visit+in+Rome+for+free"
+        },
+        {
+            "block_position": 1,
+            "query": "Most beautiful places in Rome",
+            "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Most+beautiful+places+in+Rome&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ1QJ6BQixARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Most+beautiful+places+in+Rome"
+        },
+        {
+            "block_position": 1,
+            "query": "Unusual things to do in Rome",
+            "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Unusual+things+to+do+in+Rome&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ1QJ6BQizARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Unusual+things+to+do+in+Rome"
+        },
+        {
+            "block_position": 1,
+            "query": "Things to do in Rome in 3 days",
+            "link": "https://www.google.com/search?sca_esv=93dba3a330e5cf9e&q=Things+to+do+in+Rome+in+3+days&sa=X&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ1QJ6BQivARAB",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Things+to+do+in+Rome+in+3+days"
+        }
+    ],
+    "pagination": {
+        "current": 1,
+        "next": "https://www.google.com/search?q=Rome+Destinations&sca_esv=93dba3a330e5cf9e&ei=hXoyZ5XGAoCt5NoPlKO4iAM&start=10&sa=N&sstk=ATObxK4RYHiSDq3kt4Jy0-rG2f9ebjkZYUXCyBJFDkcw0hmV0-2EZYwyMgLLrmq_dJjMqWL5VlEBoHK3JnIRFEK5skJo7zilsRF92w&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ8NMDegQIDhAW",
+        "other_pages": {
+            "2": "https://www.google.com/search?q=Rome+Destinations&sca_esv=93dba3a330e5cf9e&ei=hXoyZ5XGAoCt5NoPlKO4iAM&start=10&sa=N&sstk=ATObxK4RYHiSDq3kt4Jy0-rG2f9ebjkZYUXCyBJFDkcw0hmV0-2EZYwyMgLLrmq_dJjMqWL5VlEBoHK3JnIRFEK5skJo7zilsRF92w&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ8tMDegQIDhAE",
+            "3": "https://www.google.com/search?q=Rome+Destinations&sca_esv=93dba3a330e5cf9e&ei=hXoyZ5XGAoCt5NoPlKO4iAM&start=20&sa=N&sstk=ATObxK4RYHiSDq3kt4Jy0-rG2f9ebjkZYUXCyBJFDkcw0hmV0-2EZYwyMgLLrmq_dJjMqWL5VlEBoHK3JnIRFEK5skJo7zilsRF92w&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ8tMDegQIDhAG",
+            "4": "https://www.google.com/search?q=Rome+Destinations&sca_esv=93dba3a330e5cf9e&ei=hXoyZ5XGAoCt5NoPlKO4iAM&start=30&sa=N&sstk=ATObxK4RYHiSDq3kt4Jy0-rG2f9ebjkZYUXCyBJFDkcw0hmV0-2EZYwyMgLLrmq_dJjMqWL5VlEBoHK3JnIRFEK5skJo7zilsRF92w&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ8tMDegQIDhAI",
+            "5": "https://www.google.com/search?q=Rome+Destinations&sca_esv=93dba3a330e5cf9e&ei=hXoyZ5XGAoCt5NoPlKO4iAM&start=40&sa=N&sstk=ATObxK4RYHiSDq3kt4Jy0-rG2f9ebjkZYUXCyBJFDkcw0hmV0-2EZYwyMgLLrmq_dJjMqWL5VlEBoHK3JnIRFEK5skJo7zilsRF92w&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ8tMDegQIDhAK",
+            "6": "https://www.google.com/search?q=Rome+Destinations&sca_esv=93dba3a330e5cf9e&ei=hXoyZ5XGAoCt5NoPlKO4iAM&start=50&sa=N&sstk=ATObxK4RYHiSDq3kt4Jy0-rG2f9ebjkZYUXCyBJFDkcw0hmV0-2EZYwyMgLLrmq_dJjMqWL5VlEBoHK3JnIRFEK5skJo7zilsRF92w&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ8tMDegQIDhAM",
+            "7": "https://www.google.com/search?q=Rome+Destinations&sca_esv=93dba3a330e5cf9e&ei=hXoyZ5XGAoCt5NoPlKO4iAM&start=60&sa=N&sstk=ATObxK4RYHiSDq3kt4Jy0-rG2f9ebjkZYUXCyBJFDkcw0hmV0-2EZYwyMgLLrmq_dJjMqWL5VlEBoHK3JnIRFEK5skJo7zilsRF92w&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ8tMDegQIDhAO",
+            "8": "https://www.google.com/search?q=Rome+Destinations&sca_esv=93dba3a330e5cf9e&ei=hXoyZ5XGAoCt5NoPlKO4iAM&start=70&sa=N&sstk=ATObxK4RYHiSDq3kt4Jy0-rG2f9ebjkZYUXCyBJFDkcw0hmV0-2EZYwyMgLLrmq_dJjMqWL5VlEBoHK3JnIRFEK5skJo7zilsRF92w&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ8tMDegQIDhAQ",
+            "9": "https://www.google.com/search?q=Rome+Destinations&sca_esv=93dba3a330e5cf9e&ei=hXoyZ5XGAoCt5NoPlKO4iAM&start=80&sa=N&sstk=ATObxK4RYHiSDq3kt4Jy0-rG2f9ebjkZYUXCyBJFDkcw0hmV0-2EZYwyMgLLrmq_dJjMqWL5VlEBoHK3JnIRFEK5skJo7zilsRF92w&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ8tMDegQIDhAS",
+            "10": "https://www.google.com/search?q=Rome+Destinations&sca_esv=93dba3a330e5cf9e&ei=hXoyZ5XGAoCt5NoPlKO4iAM&start=90&sa=N&sstk=ATObxK4RYHiSDq3kt4Jy0-rG2f9ebjkZYUXCyBJFDkcw0hmV0-2EZYwyMgLLrmq_dJjMqWL5VlEBoHK3JnIRFEK5skJo7zilsRF92w&ved=2ahUKEwjVnILwn9WJAxWAFlkFHZQRDjEQ8tMDegQIDhAU"
+        }
+    },
+    "serpapi_pagination": {
+        "current": 1,
+        "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations&start=10",
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations&start=10",
+        "other_pages": {
+            "2": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations&start=10",
+            "3": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations&start=20",
+            "4": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations&start=30",
+            "5": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations&start=40",
+            "6": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations&start=50",
+            "7": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations&start=60",
+            "8": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations&start=70",
+            "9": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations&start=80",
+            "10": "https://serpapi.com/search.json?device=desktop&engine=google&google_domain=google.com&q=Rome+Destinations&start=90"
+        }
+    }
+}
